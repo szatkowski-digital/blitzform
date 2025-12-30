@@ -1,0 +1,384 @@
+{
+  "common": {
+    "navigation": {
+      "home": "Project",
+      "about": "About",
+      "contact": "Contact"
+    },
+    "seo": {
+      "home": {
+        "title": "BlitzForm - mobile 3D printing factory",
+        "description": "BlitzForm provides mobile 3D printing, fast part processing, and a digital parts warehouse delivered directly to your location."
+      },
+      "about": {
+        "title": "About Us - BlitzForm | Mobile On-Site Manufacturing",
+        "description": "BlitzForm is an innovative mobile 3D factory offering on site printing and part processing quickly and securely."
+      },
+      "contact": {
+        "title": "Contact - BlitzForm | Get in Touch",
+        "description": "Get in touch with BlitzForm to learn more about our mobile 3D printing factory and on site services."
+      }
+    }
+  },
+
+  "home": {
+    "hero": {
+      "header": "Mobile 3D Printing Factory",
+      "description": "Immediate production in any operational environment.",
+      "button": "Learn more"
+    },
+
+    "features": {
+      "header": "Stability and reliability in all conditions",
+      "description": "Designed for military, industrial, and field teams that cannot afford downtime.",
+      "cards": [
+        {
+          "title": "Industrial-grade Polish 3D printers",
+          "description": "We work exclusively with Polish industrial 3D printer manufacturers to ensure quality and reliability."
+        },
+        {
+          "title": "Resistant to harsh field conditions",
+          "description": "Operates in heat, cold, humidity, and dust — where conventional systems fail."
+        },
+        {
+          "title": "Fully offline operation",
+          "description": "No cloud, no internet access — all data remains fully local and under your control."
+        },
+        {
+          "title": "Operational within 1 hour",
+          "description": "The system is fully ready for operation in less than one hour after deployment."
+        },
+        {
+          "title": "Open-source integration",
+          "description": "Built on OctoPrint, Klipper, and CuraEngine — actively developed in Poland."
+        },
+        {
+          "title": "Modular production system",
+          "description": "3D printing, scanning, CAD/CAM, and power supply integrated into a single container."
+        },
+        {
+          "title": "Engineering-grade materials",
+          "description": "Supports nylon, carbon fiber composites, ABS, ASA, elastomers, and technical polymers."
+        },
+        {
+          "title": "Downtime minimization",
+          "description": "On-site part production eliminates waiting for external deliveries."
+        }
+      ]
+    },
+
+    "techCards": [
+      {
+        "name": "Production",
+        "title": "On-site parts manufacturing",
+        "collapsed": "Transport-ready and operational in under 1 hour.",
+        "expanded": {
+          "description": "BlitzForm enables rapid manufacturing without the need for industrial infrastructure. You can respond immediately to failures and reduce downtime from days to hours.",
+          "accent": "In critical situations, immediate availability is what matters most."
+        }
+      },
+      {
+        "name": "Security",
+        "title": "Operational security",
+        "collapsed": "A local, resilient system designed for demanding operational environments.",
+        "expanded": {
+          "description": "The system operates fully offline, is resistant to harsh field conditions, and complies with transport and power standards required by military and industrial sectors.",
+          "accent": "Your data and manufacturing processes remain fully under your control."
+        }
+      },
+      {
+        "name": "Technology",
+        "title": "Modular technology platform",
+        "collapsed": "3D printing, scanning, and CAD/CAM in one compact, ready-to-use solution.",
+        "expanded": {
+          "description": "BlitzForm combines 3D printing, scanning, and CAD/CAM into a single compact system, ready for deployment in the field.",
+          "accent": "Advanced technology delivered in the simplest possible form."
+        }
+      }
+    ],
+
+    "callToAction": {
+      "header": "Need on-site part production without delays?",
+      "description": "We help your team deploy a fully operational mobile 3D printing factory.",
+      "button": "Contact us"
+    }
+  },
+
+  "about": {
+    "hero": {
+      "header": "Meet BlitzForm!",
+      "title": "Our mission is to bring manufacturing exactly where it’s needed, instantly.",
+      "description": "We combine engineering expertise and modern technology to deliver reliable on-site production solutions. We build a complete system that works locally, is secure, and ready to use immediately. No cloud. No complex setup.",
+      "button": "Contact us"
+    },
+
+    "team": {
+      "header": "Our Team",
+      "members": [
+        {
+          "id": "dawid",
+          "name": "Dawid Tomica",
+          "title": "Founder",
+          "description": "Production & Engineering"
+        },
+        {
+          "id": "bartosz",
+          "name": "Bartosz Kuśmierek",
+          "title": "Founding Partner",
+          "description": "Engineering & Operations"
+        },
+        {
+          "id": "pawel",
+          "name": "Paweł Szatkowski",
+          "title": "Founding Partner",
+          "description": "Systems & Automation"
+        }
+      ]
+    },
+
+    "vision": {
+      "title": "Our Vision",
+      "description": "We envision a world where manufacturing is not limited by location or time. We want every organization to produce the parts they need on-site, without delays or unnecessary logistics. BlitzForm creates technologies that provide full control and independence, redefining on-site production.",
+      "banner": "Problem → Print → Solution"
+    }
+  },
+
+  "contact": {
+    "header": "Contact",
+    "content": {
+      "intro": "Have questions or want to start a collaboration? Get in touch with us.",
+      "email": {
+        "title": "Email:",
+        "description": "office@blitzform3d.com"
+      },
+      "phone": {
+        "title": "Phone:",
+        "description": "+48 518 866 569"
+      }
+    },
+    "form": {
+      "form1": "Full Name",
+      "form2": "Company Name",
+      "form3": "Email",
+      "form4": "Message",
+      "button": "Send"
+    }
+  },
+
+  "privacy": {
+    "title": "Privacy Policy",
+    "sections": [
+      {
+        "title": "1. General Information",
+        "items": [
+          {
+            "text": "This policy applies to the Website operating at the URL: www.blitzform3d.com"
+          },
+          {
+            "text": "The operator of the website and the Data Controller is: BlitzForm, Aleje Jerozolimskie 109/70, 02-011 Warsaw"
+          },
+          {
+            "text": "The operator's contact email address: office@blitzform3d.com"
+          },
+          {
+            "text": "The Operator is the Controller of your personal data in relation to the data voluntarily provided on the Website."
+          },
+          {
+            "text": "The Website collects information about users and their behavior in the following ways:",
+            "subItems": [
+              "Through voluntarily submitted data in forms, which is entered into the Operator's systems.",
+              "Through storing cookies on end devices."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "2. Selected Data Protection Methods Used by the Operator",
+        "items": [
+          {
+            "text": "Login areas and fields for entering personal data are protected at the transmission layer (SSL certificate). This ensures that personal data and login information entered on the website are encrypted on the user's computer and can only be read on the destination server."
+          }
+        ]
+      },
+      {
+        "title": "3. Hosting",
+        "items": [
+          {
+            "text": "The Website is hosted (technically maintained) on the operator's server: cyberFolks.pl"
+          },
+          {
+            "text": "The hosting company maintains logs at the server level to ensure technical reliability. The following information may be recorded:",
+            "subItems": [
+              "resources identified by URL (addresses of requested resources – pages, files)",
+              "time the request was received",
+              "time the response was sent",
+              "client workstation name – identification carried out via the HTTP protocol",
+              "information about errors that occurred during the execution of HTTP transactions",
+              "URL of the previously visited page by the user (referrer link) – if access to the Website occurred via a link",
+              "information about the user's browser",
+              "information about the IP address",
+              "diagnostic information related to the process of self-ordering services through online registrars on the site",
+              "information related to handling emails sent to or from the Operator"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "4. Your Rights and Additional Information on Data Usage",
+        "items": [
+          {
+            "text": "Your personal data is processed by the Controller no longer than necessary to perform activities related to it as required by separate regulations (e.g., accounting). For marketing data, processing will not exceed 3 years."
+          },
+          {
+            "text": "You have the right to request from the Controller:",
+            "subItems": [
+              "access to your personal data",
+              "rectification of your personal data",
+              "erasure of your personal data",
+              "restriction of processing",
+              "data portability"
+            ]
+          },
+          {
+            "text": "You have the right to object to the processing of your personal data for the purpose of pursuing the legitimate interests of the Controller, including profiling, provided that the right to object cannot be exercised if there are legally justified grounds for processing that override your interests, rights, and freedoms, in particular for the establishment, pursuit, or defense of claims."
+          },
+          {
+            "text": "You may file a complaint regarding the Controller’s actions with the President of the Personal Data Protection Office, ul. Stawki 2, 00-193 Warsaw."
+          },
+          {
+            "text": "Providing personal data is voluntary, but necessary for the operation of the Website."
+          },
+          {
+            "text": "Actions involving automated decision-making, including profiling, may be taken with respect to you to provide services under the concluded agreement and for the Controller’s direct marketing purposes."
+          },
+          {
+            "text": "Personal data may be transferred to third countries within the meaning of data protection regulations, which means they may be sent outside the European Union."
+          }
+        ]
+      },
+      {
+        "title": "5. Information in Forms",
+        "items": [
+          {
+            "text": "The Website collects information voluntarily provided by the user, including personal data, if submitted."
+          },
+          {
+            "text": "The Website may record information about connection parameters, in particular the timestamp and IP address."
+          },
+          {
+            "text": "In some cases, the Website may store information that facilitates linking data submitted in a form with the email address of the user completing the form. In such cases, the user's email address may appear within the URL of the page containing the form."
+          },
+          {
+            "text": "Data submitted in the form is processed for purposes resulting from the specific function of the form, in particular for handling service requests, commercial contact, service registration, or other actions described in the context of the given form. Each form description clearly informs the user of its purpose."
+          }
+        ]
+      },
+      {
+        "title": "6. Administrator Logs",
+        "items": [
+          {
+            "text": "Information about users’ behavior on the Website may be logged."
+          },
+          {
+            "text": "These data are used solely for the purpose of administering the Website and ensuring its proper functioning."
+          }
+        ]
+      },
+      {
+        "title": "7. Relevant Marketing Techniques",
+        "items": [
+          {
+            "text": "The Controller may use marketing techniques in accordance with applicable law, in particular for direct marketing, only with respect to users who have given their appropriate consent."
+          }
+        ]
+      },
+      {
+        "title": "8. Information About Cookies",
+        "items": [
+          {
+            "text": "The Website uses cookies."
+          },
+          {
+            "text": "Cookies are computer data, in particular text files, which are stored on the end device of the Website User and are intended for use on the Website's pages. Cookies usually contain the name of the website they come from, the time they are stored on the end device, and a unique number."
+          },
+          {
+            "text": "The entity placing cookies on the end device of the Website User and accessing them is the Website operator."
+          },
+          {
+            "text": "Cookies are used for the following purposes:",
+            "subItems": [
+              "maintaining the user's session on the Website (after logging in), allowing the user not to re-enter the login and password on each subpage of the Website",
+              "carrying out the purposes described above in the section 'Relevant Marketing Techniques'"
+            ]
+          },
+          {
+            "text": "Two main types of cookies are used on the Website: 'session' cookies and 'persistent' cookies. 'Session' cookies are temporary files stored on the User's device until logging out, leaving the website, or closing the browser. 'Persistent' cookies are stored on the User's device for the time specified in the cookie parameters or until they are deleted by the User."
+          },
+          {
+            "text": "Web browsing software (web browser) usually allows cookies to be stored on the User's device by default. Website Users can change these settings. The browser allows cookies to be deleted or automatically blocked. Detailed information on this can be found in the browser's help or documentation."
+          },
+          {
+            "text": "Restrictions on the use of cookies may affect some functionalities available on the Website's pages."
+          },
+          {
+            "text": "Cookies placed on the User's end device may also be used by entities cooperating with the Website operator, in particular by companies such as Google (Google Inc., USA), Facebook (Facebook Inc., USA), and Twitter (Twitter Inc., USA)."
+          }
+        ]
+      },
+      {
+        "title": "9. Managing Cookies – How to Give and Withdraw Consent in Practice",
+        "items": [
+          {
+            "text": "If a user does not want to receive cookies, they can change their browser settings. Please note that disabling cookies necessary for authentication, security, and maintaining user preferences may make it difficult, and in extreme cases may prevent, the use of the website."
+          },
+          {
+            "text": "To manage cookie settings, select your web browser from the list below and follow the instructions:",
+            "subItems": [
+              {
+                "text": "Edge",
+                "url": "https://support.microsoft.com/pl-pl/help/10607/microsoft-edge-view-delete-browser-history"
+              },
+              {
+                "text": "Internet Explorer",
+                "url": "https://support.microsoft.com/pl-pl/help/278835/how-to-delete-cookie-files-in-internet-explorer"
+              },
+              {
+                "text": "Chrome",
+                "url": "http://support.google.com/chrome/bin/answer.py?hl=pl&answer=95647"
+              },
+              {
+                "text": "Safari",
+                "url": "http://support.apple.com/kb/PH5042"
+              },
+              {
+                "text": "Firefox",
+                "url": "http://support.mozilla.org/pl/kb/W%C5%82%C4%85czanie%20i%20wy%C5%82%C4%85czanie%20obs%C5%82ugi%20ciasteczek"
+              },
+              {
+                "text": "Opera",
+                "url": "http://help.opera.com/Windows/12.10/pl/cookies.html"
+              }
+            ]
+          },
+          {
+            "text": "Mobile devices:",
+            "subItems": [
+              {
+                "text": "Android",
+                "url": "http://support.google.com/chrome/bin/answer.py?hl=pl&answer=95647"
+              },
+              {
+                "text": "Safari (iOS)",
+                "url": "http://support.apple.com/kb/HT1677?viewlocale=pl_PL"
+              },
+              {
+                "text": "Windows Phone",
+                "url": "http://www.windowsphone.com/pl-pl/how-to/wp7/web/changing-privacy-and-other-browser-settings"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
