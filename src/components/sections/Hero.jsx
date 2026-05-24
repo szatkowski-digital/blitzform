@@ -24,7 +24,7 @@ const Hero = () => {
             {t("hero.header")}
           </h1>
 
-          <h2 className="h2 opacity-80 max-w-md max-lg:text-center">
+          <h2 className="h4 opacity-80 max-w-md max-lg:text-center">
             {t("hero.description")}
           </h2>
 

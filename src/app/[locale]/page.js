@@ -42,7 +42,7 @@ export async function generateMetadata({ params }) {
           url: "/og/home.jpg",
           width: 1200,
           height: 630,
-          alt: "BlitzForm – Mobile Manufacturing Platform",
+          alt: "BlitzForm - Mobile Manufacturing Platform",
         },
       ],
     },

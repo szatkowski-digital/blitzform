@@ -26,7 +26,7 @@ const TechCardsGroup = () => {
       </div>
 
       {/* Desktop version */}
-      <div className="container-lg hidden lg:flex w-full h-dvh py-32 xl:py-42 justify-center items-center">
+      <div className="container-lg hidden lg:flex w-full h-dvh justify-center items-center py-42">
         <div className="relative w-full h-full gap-6 flex">
           {cards.map((item, i) => {
             const Icon = techIcons[i];

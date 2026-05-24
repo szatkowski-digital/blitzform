@@ -14,7 +14,7 @@ export const Card = ({ item, icon, active, onClick }) => {
         damping: 30,
       }}
       className={`
-        relative cursor-pointer rounded-2xl border-2 border-neutral-700 overflow-hidden py-6 md:py-10 px-4 md:px-8
+        relative cursor-pointer rounded-2xl border-2 border-neutral-700 overflow-hidden py-6 md:py-10 px-4 md:px-8 min-h-120
         ${
           active
             ? "bg-n-8/40 backdrop-blur-xl"
