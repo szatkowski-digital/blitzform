@@ -454,6 +454,12 @@
         "centerText": "Bezpłatny Audyt",
         "rightText": "03 • Dobór Sprzętu"
       }
+    },
+    "offerCta": {
+      "badgeText": "Dobór Sprzętu",
+      "title": "Potrzebujesz Konfiguracji Pod Nietypowe Zadania?",
+      "description": "Nasi inżynierowie skonfigurują Systemy Skrzyniowe lub Fabryki Kontenerowe z nietypowymi dyszami wysokotemperaturowymi, zasilaniem solarnym lub dedykowanym mocowaniem do pojazdów specjalnych.",
+      "buttonText": "Skonsultuj projekt z inżynierem"
     }
   },
 

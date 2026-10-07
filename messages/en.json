@@ -378,6 +378,12 @@
         "centerText": "Free Audit",
         "rightText": "03 • Equipment Selection"
       }
+    },
+    "offerCta": {
+      "badgeText": "Hardware Selection",
+      "title": "Need a Configuration for Custom Requirements?",
+      "description": "Our engineers will configure Box Systems or Container Factories with custom high-temperature nozzles, solar power systems, or specialized vehicle mounting brackets.",
+      "buttonText": "Consult your project with an engineer"
     }
   },
 

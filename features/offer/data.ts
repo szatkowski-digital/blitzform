@@ -270,3 +270,10 @@ export const getSectionDividersData = (t: (key: string) => string) => ({
     rightText: t("sectionDividers.d3.rightText"),
   },
 });
+
+export const getOfferCtaData = (t: (key: string) => string) => ({
+  badgeText: t("offerCta.badgeText"),
+  title: t("offerCta.title"),
+  description: t("offerCta.description"),
+  buttonText: t("offerCta.buttonText"),
+});

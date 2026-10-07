@@ -22,6 +22,7 @@ import {
   getContainerPricingData,
   getFeaturesData,
   getHeroSectionData,
+  getOfferCtaData,
   getSectionDividersData,
   getTrainingProgramsData,
 } from "./data";
@@ -35,6 +36,7 @@ export const OfferPage = () => {
   const trainingData = getTrainingProgramsData(t);
   const containerPricing = getContainerPricingData(t);
   const { divider1, divider2, divider3 } = getSectionDividersData(t);
+  const offerCtaData = getOfferCtaData(t);
 
   return (
     <div className="pt-24 sm:pt-28 md:pt-32 pb-0">
@@ -72,7 +74,7 @@ export const OfferPage = () => {
 
       <SectionDivider {...divider3} />
 
-      <OfferCTA />
+      <OfferCTA {...offerCtaData} />
     </div>
   );
 };

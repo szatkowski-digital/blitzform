@@ -35,38 +35,45 @@ export const Footer: React.FC = () => {
             </h4>
             <ul className="space-y-2 font-sans text-xs sm:text-sm">
               <li>
-                <Link href={"/"}>
-                  <button className="hover:text-white transition-colors">
-                    {t("links.home")}
-                  </button>
+                <Link
+                  href="/"
+                  className="hover:text-white transition-colors block"
+                >
+                  {t("links.home")}
                 </Link>
               </li>
               <li>
-                <Link href={"/offer"}>
-                  <button className="hover:text-primary transition-colors">
-                    {t("links.boxSystems")}
-                  </button>
+                <Link
+                  scroll={true}
+                  href="/offer#section-boxes"
+                  className="hover:text-primary transition-colors block"
+                >
+                  {t("links.boxSystems")}
                 </Link>
               </li>
               <li>
-                <Link href={"/offer"}>
-                  <button className="hover:text-[#98B364] transition-colors">
-                    {t("links.containerFactories")}
-                  </button>
+                <Link
+                  scroll={true}
+                  href="/offer#section-containers"
+                  className="hover:text-[#98B364] transition-colors block"
+                >
+                  {t("links.containerFactories")}
                 </Link>
               </li>
               <li>
-                <Link href="/about">
-                  <button className="hover:text-white transition-colors">
-                    {t("links.about")}
-                  </button>
+                <Link
+                  href="/about"
+                  className="hover:text-white transition-colors block"
+                >
+                  {t("links.about")}
                 </Link>
               </li>
               <li>
-                <Link href={"/contact"}>
-                  <button className="hover:text-white transition-colors">
-                    {t("links.contact")}
-                  </button>
+                <Link
+                  href="/contact"
+                  className="hover:text-white transition-colors block"
+                >
+                  {t("links.contact")}
                 </Link>
               </li>
             </ul>

@@ -6,41 +6,22 @@ import { Button } from "@/components/ui/Button";
 import { Link } from "@/i18n/navigation";
 
 export interface OfferCTAProps {
-  /** Small category/eyebrow tag text */
-  badgeText?: string;
-  /** Main call-to-action title */
-  title?: string;
-  /** Detailed description paragraph */
-  description?: string;
-  /** Label for the primary CTA button */
-  buttonText?: string;
-  /** Target section/route key passed to navigation callback */
-  targetRoute?: string;
-  /** Global navigation handler */
-  onNavigate?: (route: string, section?: string, packageId?: string) => void;
-  /** Optional custom ID for in-page anchors */
+  badgeText: string;
+  title: string;
+  description: string;
+  buttonText: string;
   id?: string;
-  /** Custom CSS classes for container overrides */
   className?: string;
 }
 
 export const OfferCTA: React.FC<OfferCTAProps> = ({
-  badgeText = "Dobór Sprzętu",
-  title = "Potrzebujesz Konfiguracji Pod Nietypowe Zadania?",
-  description = "Nasi inżynierowie skonfigurują Systemy Skrzyniowe lub Fabryki Kontenerowe z nietypowymi dyszami wysokotemperaturowymi, zasilaniem solarnym lub dedykowanym mocowaniem do pojazdów specjalnych.",
-  buttonText = "Skonsultuj projekt z inżynierem",
-  targetRoute = "kontakt",
-  onNavigate,
+  badgeText,
+  title,
+  description,
+  buttonText,
   id = "sekcja-oferta-cta",
   className = "",
 }) => {
-  const handleConsultationClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
-    e.preventDefault();
-    if (onNavigate) {
-      onNavigate(targetRoute);
-    }
-  };
-
   return (
     <section className={`py-16 sm:py-24 px-4 sm:px-6 ${className}`} id={id}>
       <div className="max-w-4xl mx-auto text-center">
