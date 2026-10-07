@@ -52,7 +52,7 @@ export default async function RootLayout({ children, params }: Props) {
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
       data-scroll-behavior="smooth"
     >
-      <body className="min-h-full flex flex-col">
+      <body className="min-h-full flex flex-col bg-surface-dark">
         {/* <OrganizationSchema /> */}
         <NextIntlClientProvider locale={locale} messages={messages}>
           {/* <ClientWrapper>{children}</ClientWrapper> */}
