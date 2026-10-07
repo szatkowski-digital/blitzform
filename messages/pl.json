@@ -1,0 +1,755 @@
+{
+  "common": {
+    "navigation": {
+      "offer": "Oferta",
+      "about": "O nas",
+      "contact": "Kontakt",
+      "boxSystems": "01. Systemy Skrzyniowe",
+      "containerFactories": "02. Fabryki Kontenerów"
+    },
+    "footer": {
+      "badge": "Systemy Przemysłowe i Mobilne",
+      "description": "Producent mobilnych i kontenerowych systemów addytywnych druku 3D. Dostarczamy pełną zdolność produkcyjną części zamiennych bezpośrednio w strefę operacyjną.",
+      "status": "System gotowy do wdrożenia 24/7",
+      "architectureTitle": "Architektura Systemów",
+      "engineeringTitle": "Inżynieria i Kontakt",
+      "location": "Warszawa, Zakład Produkcyjny",
+      "standards": "Standardy Przemysłowe i Badania R&D",
+      "support": "Wsparcie Serwisowe 24/7 SLA",
+      "copyright": "BlitzForm Sp. z o.o. Wszelkie prawa zastrzeżone.",
+      "privacyPolicy": "Polityka Prywatności",
+      "technicalDocs": "Dokumentacja Techniczna",
+      "links": {
+        "home": "Strona Główna",
+        "boxSystems": "Systemy Skrzyniowe",
+        "containerFactories": "Fabryki w Kontenerze",
+        "about": "O nas",
+        "contact": "Kontakt i Wycena"
+      }
+    }
+  },
+
+  "home": {
+    "seo": {
+      "title": "BlitzForm | Mobilne Systemy Druku 3D",
+      "description": "Mobilne stacje wytwarzania addytywnego i kontenerowe fabryki 3D. Produkcja części zamiennych oraz kompozytów w warunkach taktycznych i przemysłowych.",
+      "keywords": "mobilny druk 3D, wytwarzanie addytywne, kontenerowa fabryka 3D, druk 3D dla wojska, drukowanie kompozytów, systemy skrzyniowe 3D, produkcja części zamiennych",
+      "ogTitle": "BlitzForm | Mobilny Druk 3D i Stacje Addytywne w Terenie",
+      "ogDescription": "Przemysłowe i taktyczne systemy druku 3D w skrzyniach i kontenerach. Produkuj części w 15 minut od dyslokacji.",
+      "ogAlt": "BlitzForm - Mobilna Platforma Wytwarzania Addytywnego",
+      "ogImage": "/og/home.jpg"
+    },
+    "hero": {
+      "badge": "Mobilne Systemy Wytwarzania Addytywnego",
+      "titleLine1": "Natychmiastowa Produkcja",
+      "titleGradient": "W Każdych Warunkach.",
+      "description": "Mobilne stacje addytywne dla wojska, przemysłu wydobywczego i infrastruktury krytycznej. Certyfikowana produkcja części zamiennych i kompozytów technicznych w 15 minut od dyslokacji.",
+      "primaryCta": "Zobacz Systemy i Pakiety",
+      "secondaryCta": "Skonsultuj Wdrożenie"
+    },
+    "productTeasers": {
+      "badge": "Dwie Linie Produktowe",
+      "title": "Architektura Mobilna BlitzForm",
+      "description": "Wybierz format dopasowany do logistyki misji: szybkie skrzynie modułowe lub pełnowymiarowy kontener produkcyjny ISO.",
+      "cases": {
+        "badge": "Od 60 000 zł netto",
+        "priceBadge": "od 60 000 zł netto",
+        "category": "Kategoria A • Mobilność Taktyczna",
+        "title": "Systemy Skrzyniowe",
+        "description": "Modularne stacje addytywne zabudowane w skrzyniach transportowych Peli/Explorer. Zaprojektowane do natychmiastowego transportu w pojeździe terenowym, śmigłowcu lub pickupie.",
+        "features": {
+          "0": "Trzy pakiety: BASIC (60k), PRO (105k), ADVANCED (247k)",
+          "1": "Zintegrowana grzana komora, suszarka RH poniżej 15% oraz UPS",
+          "2": "Możliwość integracji skanera 3D i generatora prądotwórczego"
+        },
+        "cta": "Porównaj Pakiety Skrzyniowe"
+      },
+      "containers": {
+        "badge": "Wycena Indywidualna",
+        "priceBadge": "Wycena Indywidualna",
+        "category": "Kategoria B • Skala Przemysłowa",
+        "title": "Fabryki w Kontenerze",
+        "description": "Samowystarczalne mini-fabryki w certyfikowanych kontenerach morskich 20ft i 40ft. Pełne zaplecze: park wielkoformatowych drukarek 3D, stanowiska CAD, strefa obróbki CNC i post-processingu.",
+        "features": {
+          "0": "Zintegrowana klimatyzacja HVAC z filtrami węglowymi i HEPA H14",
+          "1": "Niezależne zasilanie: agregat prądotwórczy diesla i bank LiFePO4",
+          "2": "Pełny cykl: inżynieria odwrotna, druk, mycie, utwardzanie i kontrola"
+        },
+        "cta": "Specyfikacja Kontenera 20ft / 40ft"
+      }
+    },
+    "featuresGrid": {
+      "items": {
+        "0": {
+          "title": "Polskie drukarki przemysłowe",
+          "desc": "Współpracujemy wyłącznie z polskimi producentami 3D, zapewniając jakość i niezawodność."
+        },
+        "1": {
+          "title": "Odporne na warunki terenowe",
+          "desc": "Działa w upale, mrozie, wilgoci i zapyleniu – tam, gdzie inne systemy zawodzą."
+        },
+        "2": {
+          "title": "Pełna praca offline",
+          "desc": "Brak chmury i internetu – wszystkie dane pozostają lokalnie pod Twoją kontrolą."
+        },
+        "3": {
+          "title": "Gotowe w 1 godzinę",
+          "desc": "System jest w pełni operacyjny w mniej niż godzinę od rozładunku."
+        },
+        "4": {
+          "title": "Integracja z OSS",
+          "desc": "Oparte na OctoPrint, Klipper i CuraEngine – rozwijane w Polsce."
+        },
+        "5": {
+          "title": "Modułowy system produkcji",
+          "desc": "Druk 3D, skan, CAD/CAM i zasilanie w jednym kontenerze."
+        },
+        "6": {
+          "title": "Materiały techniczne",
+          "desc": "Obsługa nylonu, CF, ABS, ASA, elastomerów i kompozytów."
+        },
+        "7": {
+          "title": "Minimalizacja przestojów",
+          "desc": "Produkcja części na miejscu eliminuje oczekiwanie na dostawy."
+        }
+      }
+    },
+    "blitzFormDepot": {
+      "badge": "Nowość • Już wkrótce",
+      "title": "BlitzForm Depot",
+      "description": "Wirtualny magazyn części zamiennych do druku 3D. Cyfrowe repozytorium atestowanych plików CAD i gotowych g-code do natychmiastowego druku.",
+      "cta": "Zapytaj o Dostęp",
+      "pillars": {
+        "0": {
+          "title": "Cyfrowe Bliźniaki Części",
+          "desc": "Tysiące zwymiarowanych komponentów mechanicznych, złączy i uszczelek w bezpiecznej bazie bez mrożenia budżetu w fizycznych magazynach."
+        },
+        "1": {
+          "title": "Druk 1-Kliknięciem Bez Slicingu",
+          "desc": "Prekonfigurowane profile druku pod systemy BlitzForm ze skompensowanym skurczem materiałowym dla PA12-CF, PEEK i TPU."
+        },
+        "2": {
+          "title": "Autonomia Sprzętowa i Offline",
+          "desc": "Pełne bezpieczeństwo i praca w odcięciu od sieci (Air-Gap). Magazyn offline z natychmiastowym dostępem do plików G-code."
+        }
+      }
+    }
+  },
+
+  "about": {
+    "seo": {
+      "title": "O Firmie i Zespole | BlitzForm 3D Warszawa",
+      "description": "Polski zespół inżynierski rozwijający mobilne stacje druku 3D. Uniezależniamy przemysł, wojsko i służby od tradycyjnych łańcuchów dostaw części.",
+      "keywords": "polski producent druku 3D, zespół inżynierski 3D, mobilne systemy addytywne, drukowanie części w terenie, inżynieria wsteczna R&D",
+      "ogTitle": "O BlitzForm | Mobilna Produkcja i Inżynieria Addytywna",
+      "ogDescription": "Poznaj polski zespół inżynierów i konstruktorów budujących autonomiczne stacje wytwórcze w skrzyniach i kontenerach.",
+      "ogAlt": "Zespół inżynierski BlitzForm 3D",
+      "ogImage": "/og/about.jpg"
+    },
+    "aboutHero": {
+      "badge": "O Firmie i Zespole • BlitzForm",
+      "titleLine1": "Produkcja Tam, Gdzie Kończy Się",
+      "titleGradient": "Łańcuch Dostaw",
+      "description": "Jesteśmy polskim zespołem inżynierskim rozwijającym mobilne systemy wytwarzania przyrostowego. Naszym celem jest uniezależnienie służb, wojska i przemysłu od długich przestojów logistycznych.",
+      "metrics": {
+        "0": {
+          "id": "01 • Inżynieria i R&D",
+          "value": "Warszawa",
+          "title": "Własny Dział Projektowy",
+          "desc": "Wszystkie zabudowy projektujemy, integrujemy i składamy w Polsce, dostosowując układ do specyfiki pracy klienta."
+        },
+        "1": {
+          "id": "02 • Zespół Wdrożeniowy",
+          "value": "Praktycy 3D",
+          "title": "Konstruktorzy i Technicy",
+          "desc": "Łączymy doświadczenie w mechanice, druku z tworzyw technicznych, inżynierii wstecznej CAD oraz systemach zasilania."
+        },
+        "2": {
+          "id": "03 • Partnerstwo",
+          "value": "Od A do Z",
+          "title": "Wdrożenie i Szkolenie Kadry",
+          "desc": "Nie dostarczamy wyłącznie sprzętu — budujemy gotowe stanowiska, szkolimy operatorów i wspieramy zespół po wdrożeniu."
+        }
+      }
+    },
+    "aboutManifest": {
+      "badge": "01 • Misja i Filozofia BlitzForm",
+      "location": "Warszawa",
+      "country": "Polska",
+      "title": "Dlaczego Powstał BlitzForm?",
+      "paragraph1": "Tradycyjna logistyka zakłada utrzymywanie potężnych centralnych magazynów części zamiennych. W dobie zglobalizowanych zakłóceń, konfliktów asymetrycznych i operacji na odległych placówkach przemysłowych, ten model przestaje działać.",
+      "paragraph2HighlightBefore": "Filozofia ",
+      "paragraph2Strong": "BlitzForm",
+      "paragraph2HighlightAfter": "odwraca ten paradygmat: zamiast transportować tysiące gotowych detali, dostarczamy zespołom technicznym realną zdolność wytwórczą bezpośrednio na miejscu pracy oraz uczymy ich pełnej samodzielności od skanu 3D po gotowy detal.",
+      "quoteText": "Część zamienna, która dotarła trzy dni za późno, ma dokładnie taką samą wartość jak ta, która nigdy nie została wyprodukowana. Mobilny druk 3D eliminuje czas oczekiwania do zera.",
+      "quoteAuthor": "Zespół Założycielski BlitzForm",
+      "sectorsTitle": "Dla Kogo Tworzymy?",
+      "sectors": {
+        "0": {
+          "title": "Siły Zbrojne i Obronność",
+          "desc": "Wsparcie warsztatów polowych w utrzymaniu sprawności pojazdów, dronów, łączności i wyposażenia na pierwszej linii."
+        },
+        "1": {
+          "title": "Górnictwo i Przemysł Ciężki",
+          "desc": "Błyskawiczne dorabianie niedostępnych elementów maszyn, osłon, uchwytów i złączy bez tygodniowych przestojów linii."
+        },
+        "2": {
+          "title": "Offshore i Energetyka",
+          "desc": "Autonomiczna produkcja części zamiennych dla zespołów serwisowych pracujących z dala od baz logistycznych."
+        },
+        "3": {
+          "title": "Służby Ratownicze i Kryzysowe",
+          "desc": "Wytwarzanie doraźnych adapterów, złączek instalacyjnych i osprzętu technicznego bezpośrednio w rejonie działań."
+        }
+      }
+    },
+    "aboutCta": {
+      "badge": "Wdrożenie w Twojej Formacji",
+      "title": "Gotowy Na Niezależność Produkcyjną?",
+      "description": "Nasi inżynierowie przeprowadzą audyt zapotrzebowania na części i dobiorą optymalny pakiet skrzyniowy lub kontenerowy do Twojego teatru działań.",
+      "primaryCta": "Zobacz Pakiety Sprzętowe",
+      "secondaryCta": "Skontaktuj się z nami"
+    }
+  },
+
+  "offer": {
+    "seo": {
+      "title": "Katalog Mobilnych Systemów Druku 3D | BlitzForm Oferta",
+      "description": "Poznaj mobilne stacje addytywne BlitzForm: taktyczne systemy skrzyniowe oraz samowystarczalne fabryki w kontenerach ISO. Produkcja części w terenie.",
+      "keywords": "systemy skrzyniowe 3D, fabryka w kontenerze 3D, mobilna drukarka 3D, drukowanie kompozytów, skanowanie 3D w terenie, szkolenia z druku 3D",
+      "ogTitle": "Oferta Mobilnych Systemów Druku 3D i Fabryk Kontenerowych",
+      "ogDescription": "Mobilne stacje produkcyjne w skrzyniach transportowych oraz kontenerach ISO 20ft/40ft. Certyfikowana technologia dla przemysłu i wojska.",
+      "ogAlt": "Katalog mobilnych stacji druku 3D BlitzForm",
+      "ogImage": "/og/offer.jpg"
+    },
+    "heroSection": {
+      "badgeText": "Katalog Systemów Mobilnych BlitzForm",
+      "title": "Wytwarzanie Przyfrontowe i Polowe",
+      "subtitle": "Mobilne systemy skrzyniowe oraz fabryki w kontenerach zaprojektowane do natychmiastowej produkcji części zamiennych w trudnych warunkach terenowych.",
+      "links": {
+        "0": {
+          "label": "01. Systemy Skrzyniowe (60k – 247k zł)"
+        },
+        "1": {
+          "label": "02. Fabryki Kontenerowe (ISO 20ft / 40ft)"
+        }
+      }
+    },
+    "featureAccordion": {
+      "boxes": {
+        "categoryNumber": "System 01 • Mobilność Taktyczna",
+        "categoryTitle": "Systemy Skrzyniowe",
+        "categoryDescription": "Zwarte, mobilne stacje addytywne w skrzyniach ochronnych. Przeznaczone do szybkiego transportu pojazdami terenowymi, śmigłowcami oraz w mobilnych warsztatach.",
+        "imageAlt": "Systemy Skrzyniowe druku 3D BlitzForm",
+        "features": {
+          "0": {
+            "title": "Zabudowa Ochronna Peli / Explorer",
+            "summary": "Wzmocniona skrzynia transportowa z dopasowanym wkładem piankowym CNC.",
+            "description": "Drukarka oraz osprzęt są bezpiecznie osadzone w wytrzymałej skrzyni transportowej Peli / Explorer z dedykowanym, frezowanym wkładem piankowym i blokadami osi na czas przewozu. Chroni to precyzyjną mechanikę przed przeciążeniami w transporcie kołowym, terenowym i lotniczym.",
+            "tag": "Systemy Skrzyniowe • Wkłady Piankowe CNC"
+          },
+          "1": {
+            "title": "Termoaktywna Komora i Suszarka Filamentów",
+            "summary": "Niska wilgotność RH i stabilna temperatura procesu druku.",
+            "description": "Odizolowana komora robocza z regulowanym profilem termicznym oraz dedykowaną, zewnętrzną suszarką do materiałów. Utrzymanie wilgotności na poziomie poniżej 15% RH gwarantuje powtarzalne wydruki ze zbrojonych polimerów technicznych (PA12-CF, PC, TPU) zarówno przy ujemnych temperaturach, jak i w ekstremalnym upale.",
+            "tag": "Niska wilgotność RH • Zakres -20°C do +50°C"
+          },
+          "2": {
+            "title": "Autonomia Energetyczna i Filtracja UPS",
+            "summary": "Zasilacz online z podwójną konwersją i stałą ochroną napięcia.",
+            "description": "System UPS True On-Line oczyszcza sinusoidę prądu z agregatów prądotwórczych, eliminując wahania napięcia. W przypadku zaniku zasilania zewnętrznego, bufor akumulatorowy podtrzymuje proces druku lub bezpiecznie parkuje głowicę.",
+            "tag": "True On-Line UPS • Stabilizacja Napięcia"
+          },
+          "3": {
+            "title": "Rozkładane Stanowisko Inżynieryjne",
+            "summary": "Kompleksowa stacja robocza z oświetleniem LED i organizacją narzędzi.",
+            "description": "Pokrywa skrzyni po rozłożeniu tworzy ergonomiczne stanowisko polowe z antywibracyjnym dokiem na wzmocniony komputer, organizerem narzędzi serwisowych, matą antystatyczną oraz kierunkowym oświetleniem inspekcyjnym LED o wysokim współczynniku CRI.",
+            "tag": "Stacja robocza • Oświetlenie LED CRI>90"
+          },
+          "4": {
+            "title": "Inżynieria Wsteczna i Skanowanie 3D",
+            "summary": "Skanowanie uszkodzonego detalu i szybkie przygotowanie modelu CAD.",
+            "description": "Integracja ze skanerem 3D pozwala odtworzyć geometrię uszkodzonej części bezpośrednio w terenie. Model przetwarzany jest w prekonfigurowanym oprogramowaniu i natychmiast kierowany do druku z kompozytów technicznych bez potrzeby oczekiwania na dokumentację fabryczną.",
+            "tag": "Skaner 3D • Szybka produkcja z CAD"
+          }
+        }
+      },
+      "containers": {
+        "categoryNumber": "System 02 • Skala Przemysłowa",
+        "categoryTitle": "Fabryki Kontenerowe",
+        "categoryDescription": "Samowystarczalne jednostki produkcyjne ISO 20ft i 40ft z pełnym cyklem post-processingu, zaawansowaną filtracją powietrza i niezależnym zasilaniem.",
+        "imageAlt": "Fabryki Kontenerowe 20ft i 40ft BlitzForm",
+        "features": {
+          "0": {
+            "title": "Park Maszyn Wielkoformatowych (FDM / SLA / SLS)",
+            "summary": "Zestaw przemysłowych maszyn z polem roboczym do 1 metra.",
+            "description": "Klimatyzowana przestrzeń produkcyjna wyposażona w kaskadę przemysłowych drukarek 3D. Pole robocze sięgające do 1000 x 1000 x 1000 mm umożliwia produkcję wielkogabarytowych obudów, przewodów technicznych czy osłon w jednym cyklu.",
+            "tag": "Pole do 1000 mm³ • Multi-technologia"
+          },
+          "1": {
+            "title": "Klimatyzacja HVAC z Filtracją HEPA H14 i Węglem",
+            "summary": "Nadciśnieniowa filtracja powietrza chroniąca przed pyłem i pyłkami.",
+            "description": "Przemysłowy system HVAC utrzymuje nadciśnienie we wnętrzu kontenera, uniemożliwiając przenikanie pyłu i piasku z zewnątrz. Zastosowane filtry węglowe i HEPA H14 skutecznie oczyszczają powietrze z cząstek i oparów poprocesowych.",
+            "tag": "HEPA H14 • Nadciśnienie pyłoszczelne"
+          },
+          "2": {
+            "title": "Strefa Post-processingu i Obróbki Uzupełniającej",
+            "summary": "Myjki ultradźwiękowe, komory UV i precyzyjne dopasowanie wykończenia.",
+            "description": "Wydzielone stanowisko wykończeniowe wyposażone w myjki, komory utwardzania UV oraz moduły do wykończenia krawędzi i otworów pasowanych w wytworzonych komponentach.",
+            "tag": "Mycie i utwardzanie UV • Wykończenie detali"
+          },
+          "3": {
+            "title": "Niezależne Zasilanie Agregatem i Bankiem LiFePO4",
+            "summary": "Wysoka autonomia pracy bez dostępu do sieci zewnętrznej.",
+            "description": "Wbudowany generator diesla oraz pojemny bank akumulatorów LiFePO4 zapewniają pełną niezależność operacyjną i stabilność pracy maszyn nawet przy pr przerwach w dostawie energii zewnętrznej.",
+            "tag": "Agregat Diesla • Bank LiFePO4"
+          },
+          "4": {
+            "title": "Stanowiska CAD i Sieć Lokalna (Air-Gap)",
+            "summary": "Autonomiczna sieć wewnętrzna i stanowiska inżynierskie.",
+            "description": "Dwa stanowiska inżynierskie umożliwiają modyfikowanie projektów i przygotowywanie plików produkcyjnych na miejscu. Wewnętrzna sieć LAN/WLAN zapewnia szybki transfer danych przy zachowaniu pełnej izolacji od zewnętrznego Internetu.",
+            "tag": "Praca Autonomiczna Offline • Podwójne stacje CAD"
+          }
+        }
+      }
+    },
+    "boxPackages": {
+      "sectionBadge": "Konfiguracje i Pakiety Cenowe",
+      "sectionTitle": "Systemy Skrzyniowe — Pakiety",
+      "sectionDescription": "Przejrzysta specyfikacja sprzętowa dopasowana do skali mobilności Twojego zespołu.",
+      "recommendedBadgeMobile": "★ Rekomendacja Inżynierska",
+      "recommendedBadgeDesktop": "Rekomendowane przez BlitzForm",
+      "selectButtonPrefix": "Wybierz",
+      "packages": {
+        "basic": {
+          "name": "Pakiet BASIC",
+          "badgeTag": "Systemy Skrzyniowe • Start",
+          "price": "60 000 zł",
+          "priceShort": "60k",
+          "priceSubtext": "netto / zestaw startowy",
+          "description": "Kompaktowy zestaw do pracy mobilnej. Umożliwia natychmiastową produkcję podstawowych części i narzędzi bezpośrednio na miejscu.",
+          "features": {
+            "0": "2× drukarka 3D",
+            "1": "Zewnętrzna suszarka na 4 filamenty",
+            "2": "Rozkładane stanowisko robocze",
+            "3": "Zestaw narzędzi ręcznych",
+            "4": "Elektronarzędzia polskiego producenta",
+            "5": "Lutownica do insertów gwintowanych",
+            "6": "Podstawowy pakiet filamentów technicznych",
+            "7": "Dedykowany zasilacz UPS",
+            "8": "Szkolenie 1-dniowe (do 5 osób): Obsługa systemów 3D"
+          }
+        },
+        "pro": {
+          "name": "Pakiet PRO",
+          "badgeTag": "Systemy Skrzyniowe • Bestseller",
+          "price": "105 000 zł",
+          "priceShort": "105k",
+          "priceSubtext": "netto / optymalny zestaw",
+          "description": "Kompletny zestaw do wdrożeń polowych. Zapewnia pełną zdolność operacyjną — od projektowania CAD po wyrób gotowy.",
+          "features": {
+            "0": "2× drukarka 3D",
+            "1": "Zewnętrzna suszarka na 4 filamenty",
+            "2": "Rozkładane stanowisko robocze",
+            "3": "Zestaw narzędzi ręcznych",
+            "4": "Elektronarzędzia polskiego producenta",
+            "5": "Lutownica do insertów gwintowanych",
+            "6": "Rozszerzony pakiet materiałów zaawansowanych (kompozyty)",
+            "7": "Wzmocniony zasilacz UPS True On-Line",
+            "8": "Mobilna stacja robocza + Oprogramowanie CAD",
+            "9": "Szkolenie 3-dniowe z certyfikatem (do 5 osób): Obsługa 3D + Podstawy CAD"
+          }
+        },
+        "advanced": {
+          "name": "Pakiet ADVANCED",
+          "badgeTag": "Systemy Skrzyniowe • Pełna Autonomia",
+          "price": "247 000 zł",
+          "priceShort": "247k",
+          "priceSubtext": "netto / pełna autonomia",
+          "description": "Produkcja, skanowanie 3D oraz inżynieria wsteczna. Pełna niezależność technologiczna i możliwość odtwarzania części bez fabrycznej dokumentacji.",
+          "features": {
+            "0": "4× drukarka 3D + 2× suszarka na 4 filamenty",
+            "1": "2× rozkładane stanowisko robocze",
+            "2": "Zestaw narzędzi ręcznych, elektronarzędzi oraz lutownica",
+            "3": "Pełny pakiet materiałów zaawansowanych + UPS True On-Line",
+            "4": "Mobilna stacja robocza z oprogramowaniem CAD",
+            "5": "Ręczny skaner 3D z akcesoriami i oprogramowaniem Geomagic",
+            "6": "Namiot roboczy do prac w terenie + Agregat prądotwórczy",
+            "7": "Szkolenie 5-dniowe z certyfikatem (do 5 osób): Druk 3D, CAD, Skanowanie i Inżynieria Wsteczna"
+          }
+        }
+      }
+    },
+    "trainingPrograms": {
+      "badgeText": "Szkolenia Wdrożeniowe",
+      "title": "Pakiety Szkoleniowe dla Operatorów i Kadr",
+      "subtitle": "Grupy do 5 osób w ramach każdego pakietu. Kompleksowa wiedza praktyczna od ekspertów.",
+      "programs": {
+        "0": {
+          "packageLabel": "Basic",
+          "price": "2 900 zł",
+          "duration": "1 dzień (do 5 osób)",
+          "title": "Szkolenie Podstawowe",
+          "features": {
+            "0": "Obsługa i konserwacja drukarek 3D"
+          }
+        },
+        "1": {
+          "packageLabel": "Pro",
+          "price": "7 500 zł",
+          "duration": "3 dni (do 5 osób)",
+          "title": "Szkolenie Średniozaawansowane",
+          "features": {
+            "0": "Obsługa i przygotowanie drukarek 3D",
+            "1": "Podstawy modelowania CAD (Fusion 360) dla druku 3D (Certyfikat)"
+          }
+        },
+        "2": {
+          "packageLabel": "Advanced",
+          "price": "12 000 zł",
+          "duration": "5 dni (do 5 osób)",
+          "title": "Szkolenie Zaawansowane",
+          "features": {
+            "0": "Obsługa zaawansowanych systemów druku 3D",
+            "1": "Modelowanie CAD dla wytwarzania addytywnego",
+            "2": "Skanowanie 3D w warunkach polowych",
+            "3": "Podstawy inżynierii wstecznej i odtwarzania geometrii (Certyfikat)"
+          }
+        }
+      }
+    },
+    "containerPricing": {
+      "badgeText": "Projektowanie Pod Specyfikację",
+      "title": "Fabryki Kontenerowe — Wycena Indywidualna",
+      "subtitle": "Każda jednostka z linii Fabryki Kontenerowe ISO 20ft / 40ft jest konfiguracja na zamówienie: dobieramy park maszyn, moduły obróbcze, systemy filtracji HVAC oraz autonomię zasilania.",
+      "ctaText": "Zapytaj o wycenę Fabryki Kontenerowej",
+      "steps": {
+        "0": {
+          "title": "Audyt Technologiczny",
+          "description": "Analiza zapotrzebowania na części i dobór optymalnych technologii."
+        },
+        "1": {
+          "title": "Dostawa i Integracja",
+          "description": "Przystosowanie kontenera ISO do transportu drogowego, morskiego i lotniczego."
+        },
+        "2": {
+          "title": "Szkolenie i Wsparcie SLA",
+          "description": "Szkolenie załogi i stała opieka techniczna oraz serwisowa."
+        }
+      }
+    },
+    "sectionDividers": {
+      "d1": {
+        "leftText": "Katalog Wojskowo-Przemysłowy",
+        "centerText": "Specyfikacja 2026",
+        "rightText": "01 • Systemy Skrzyniowe"
+      },
+      "d2": {
+        "leftText": "Standard ISO / NATO",
+        "centerText": "Autonomia 100%",
+        "rightText": "02 • Fabryki Kontenerowe"
+      },
+      "d3": {
+        "leftText": "Konfigurator Taktyczny",
+        "centerText": "Bezpłatny Audyt",
+        "rightText": "03 • Dobór Sprzętu"
+      }
+    }
+  },
+
+  "contact": {
+    "seo": {
+      "title": "Kontakt i Konsultacje Wdrożeniowe | BlitzForm 3D",
+      "description": "Skontaktuj się z naszymi inżynierami w sprawie mobilnych stacji druku 3D i fabryk kontenerowych. Szybka wycena, specyfikacja techniczna i audyt.",
+      "keywords": "kontakt BlitzForm, wycena druku 3D, konsultacje wytwarzanie addytywne, mobilne stacje 3D wycena, audyt technologiczny 3D",
+      "ogTitle": "Skonfiguruj Wdrożenie Mobilnego Druku 3D | BlitzForm",
+      "ogDescription": "Zapytaj o darmową wycenę i konsultację inżynieryjną dla systemów skrzyniowych i kontenerowych.",
+      "ogAlt": "Formularz kontaktowy BlitzForm 3D",
+      "ogImage": "/og/contact.jpg"
+    },
+    "contactHero": {
+      "badgeText": "Kontakt i Zapytania Ofertowe",
+      "title": "Skonfiguruj Wdrożenie",
+      "subtitle": "Nasi inżynierowie przygotują precyzyjną ofertę techniczną, specyfikację materiałową oraz kalkulację czasu wdrożenia."
+    },
+    "contactFormContent": {
+      "successTitle": "Zapytanie Zostało Wysłane",
+      "successDescriptionPrefix": "Dziękujemy za kontakt. Nasz zespół skontaktuje się pod adresem",
+      "successDescriptionSuffix": "z dedykowaną specyfikacją.",
+      "successButtonText": "Wyślij kolejne zapytanie",
+      "nameLabel": "Imię i Nazwisko",
+      "namePlaceholder": "np. Jan Kowalski",
+      "organizationLabel": "Firma / Instytucja",
+      "organizationPlaceholder": "np. Zakłady Przemysłowe",
+      "emailLabel": "Adres E-mail",
+      "emailPlaceholder": "twoj.mail@domena.com",
+      "phoneLabel": "Numer Telefonu",
+      "phonePlaceholder": "+48 000 000 000",
+      "messageLabel": "Wymagania Techniczne / Opis Misji",
+      "messagePlaceholder": "Opisz rodzaj wytwarzanych części...",
+      "submittingText": "Przetwarzanie zapytania...",
+      "submitButtonText": "Wyślij zapytanie do inżyniera",
+      "defaultError": "Nie udało się wysłać zapytania.",
+      "connectionError": "Wystąpił błąd połączenia z serwerem. Spróbuj ponownie."
+    },
+    "contactSidebar": {
+      "badgeText": "Biuro Główne i Zapytania",
+      "companyName": "BlitzForm 3D",
+      "emailLabel": "Adres e-mail:",
+      "emailValue": "office@blitzform3d.com",
+      "locationLabel": "Zakład Produkcyjny:",
+      "locationValue": "Warszawa, Polska",
+      "responseTimeLabel": "Czas Odpowiedzi:",
+      "responseTimeValue": "Do 4 godzin roboczych"
+    },
+    "categorySelector": {
+      "step1Label": "1. Wybierz kategorię zapytania:",
+      "step2Label": "2. Wybierz wariant pakietu skrzyniowego:",
+      "categories": {
+        "boxes": {
+          "title": "System Skrzyniowy",
+          "subtitle": "BASIC, PRO, ADVANCED"
+        },
+        "containers": {
+          "title": "System Kontenerowy",
+          "subtitle": "Fabryka ISO"
+        },
+        "consultation": {
+          "title": "Konsultacja Wdrożeniowa",
+          "subtitle": "Dobór technologii i audyt"
+        }
+      },
+      "boxSubOptions": {
+        "basic": {
+          "name": "Basic",
+          "price": "Standard"
+        },
+        "pro": {
+          "name": "Pro",
+          "price": "Popularny"
+        },
+        "advanced": {
+          "name": "Advanced",
+          "price": "Przemysłowy"
+        }
+      }
+    }
+  },
+
+  "privacy": {
+    "title": "Polityka prywatności",
+    "sections": [
+      {
+        "title": "1. Informacje ogólne",
+        "items": [
+          {
+            "text": "Niniejsza polityka dotyczy Serwisu www, funkcjonującego pod adresem url: www.blitzform3d.com"
+          },
+          {
+            "text": "Operatorem serwisu oraz Administratorem danych osobowych jest: BlitzForm, Aleje Jerozolimskie 109/70, 02-011 Warszawa"
+          },
+          {
+            "text": "Adres kontaktowy poczty elektronicznej operatora: office@blitzform3d.com"
+          },
+          {
+            "text": "Operator jest Administratorem Twoich danych osobowych w odniesieniu do danych podanych dobrowolnie w Serwisie."
+          },
+          {
+            "text": "Serwis realizuje funkcje pozyskiwania informacji o użytkownikach i ich zachowaniu w następujący sposób:",
+            "subItems": [
+              "Poprzez dobrowolnie wprowadzone w formularzach dane, które zostają wprowadzone do systemów Operatora.",
+              "Poprzez zapisywanie w urządzeniach końcowych plików cookie (tzw. „ciasteczka”)."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "2. Wybrane metody ochrony danych stosowane przez Operatora",
+        "items": [
+          {
+            "text": "Miejsca logowania i wprowadzania danych osobowych są chronione w warstwie transmisji (certyfikat SSL). Dzięki temu dane osobowe i dane logowania, wprowadzone na stronie, zostają zaszyfrowane w komputerze użytkownika i mogą być odczytane jedynie na docelowym serwerze."
+          }
+        ]
+      },
+      {
+        "title": "3. Hosting",
+        "items": [
+          {
+            "text": "Serwis jest hostowany (technicznie utrzymywany) na serwerze operatora: cyberFolks.pl"
+          },
+          {
+            "text": "Firma hostingowa w celu zapewnienia niezawodności technicznej prowadzi logi na poziomie serwera. Zapisowi mogą podlegać:",
+            "subItems": [
+              "zasoby określone identyfikatorem URL (adresy żądanych zasobów – stron, plików)",
+              "czas nadejścia zapytania",
+              "czas wysłania odpowiedzi",
+              "nazwę stacji klienta – identyfikacja realizowana przez protokół HTTP",
+              "informacje o błędach jakie nastąpiły przy realizacji transakcji HTTP",
+              "adres URL strony poprzednio odwiedzanej przez użytkownika (referer link) – w przypadku gdy przejście do Serwisu nastąpiło przez odnośnik",
+              "informacje o przeglądarce użytkownika",
+              "informacje o adresie IP",
+              "informacje diagnostyczne związane z procesem samodzielnego zamawiania usług poprzez rejestratory na stronie",
+              "informacje związane z obsługą poczty elektronicznej kierowanej do Operatora oraz wysyłanej przez Operatora"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "4. Twoje prawa i dodatkowe informacje o sposobie wykorzystania danych",
+        "items": [
+          {
+            "text": "Twoje dane osobowe przetwarzane są przez Administratora nie dłużej, niż jest to konieczne do wykonania związanych z nimi czynności określonych osobnymi przepisami (np. o prowadzeniu rachunkowości). W odniesieniu do danych marketingowych dane nie będą przetwarzane dłużej niż przez 3 lata."
+          },
+          {
+            "text": "Przysługuje Ci prawo żądania od Administratora:",
+            "subItems": [
+              "dostępu do danych osobowych Ciebie dotyczących",
+              "ich sprostowania",
+              "usunięcia",
+              "ograniczenia przetwarzania",
+              "przenoszenia danych"
+            ]
+          },
+          {
+            "text": "Przysługuje Ci prawo do złożenia sprzeciwu wobec przetwarzania danych osobowych w celu wykonania prawnie uzasadnionych interesów realizowanych przez Administratora, w tym profilowania, przy czym prawo sprzeciwu nie będzie mogło być wykonane w przypadku istnienia ważnych prawnie uzasadnionych podstaw do przetwarzania, nadrzędnych wobec Twoich interesów, praw i wolności, w szczególności ustalenia, dochodzenia lub obrony roszczeń."
+          },
+          {
+            "text": "Na działania Administratora przysługuje skarga do Prezesa Urzędu Ochrony Danych Osobowych, ul. Stawki 2, 00-193 Warszawa."
+          },
+          {
+            "text": "Podanie danych osobowych jest dobrowolne, lecz niezbędne do obsługi Serwisu."
+          },
+          {
+            "text": "W stosunku do Ciebie mogą być podejmowane czynności polegające na zautomatyzowanym podejmowaniu decyzji, w tym profilowaniu, w celu świadczenia usług w ramach zawartej umowy oraz w celu prowadzenia przez Administratora marketingu bezpośredniego."
+          },
+          {
+            "text": "Dane osobowe są przekazywane do krajów trzecich w rozumieniu przepisów o ochronie danych osobowych, co oznacza, że mogą być przesyłane poza teren Unii Europejskiej."
+          }
+        ]
+      },
+      {
+        "title": "5. Informacje w formularzach",
+        "items": [
+          {
+            "text": "Serwis zbiera informacje podane dobrowolnie przez użytkownika, w tym dane osobowe, o ile zostaną one podane."
+          },
+          {
+            "text": "Serwis może zapisać informacje o parametrach połączenia, w szczególności oznaczenie czasu oraz adres IP."
+          },
+          {
+            "text": "Serwis, w niektórych przypadkach, może zapisać informację ułatwiającą powiązanie danych podanych w formularzu z adresem e-mail użytkownika wypełniającego formularz. W takim przypadku adres e-mail użytkownika może pojawić się wewnątrz adresu URL strony zawierającej formularz."
+          },
+          {
+            "text": "Dane podane w formularzu są przetwarzane w celu wynikającym z funkcji konkretnego formularza, w szczególności w celu realizacji procesu obsługi zgłoszenia serwisowego, kontaktu handlowego, rejestracji usług lub innych działań opisanych w kontekście danego formularza. Każdorazowo opis formularza w czytelny sposób informuje, do jakiego celu służy."
+          }
+        ]
+      },
+      {
+        "title": "6. Logi Administratora",
+        "items": [
+          {
+            "text": "Informacje o zachowaniu użytkowników w Serwisie mogą podlegać logowaniu."
+          },
+          {
+            "text": "Dane te są wykorzystywane wyłącznie w celu administrowania Serwisem oraz zapewnienia jego prawidłowego działania."
+          }
+        ]
+      },
+      {
+        "title": "7. Istotne techniki marketingowe",
+        "items": [
+          {
+            "text": "Administrator może stosować techniki marketingowe zgodnie z obowiązującymi przepisami prawa, w szczególności w zakresie marketingu bezpośredniego, wyłącznie wobec użytkowników, którzy wyrazili na to stosowną zgodę."
+          }
+        ]
+      },
+      {
+        "title": "8. Informacja o plikach cookies",
+        "items": [
+          {
+            "text": "Serwis korzysta z plików cookies."
+          },
+          {
+            "text": "Pliki cookies (tzw. „ciasteczka”) stanowią dane informatyczne, w szczególności pliki tekstowe, które przechowywane są w urządzeniu końcowym Użytkownika Serwisu i przeznaczone są do korzystania ze stron internetowych Serwisu. Cookies zazwyczaj zawierają nazwę strony internetowej, z której pochodzą, czas przechowywania ich na urządzeniu końcowym oraz unikalny numer."
+          },
+          {
+            "text": "Podmiotem zamieszczającym na urządzeniu końcowym Użytkownika Serwisu pliki cookies oraz uzyskującym do nich dostęp jest operator Serwisu."
+          },
+          {
+            "text": "Pliki cookies wykorzystywane są w następujących celach:",
+            "subItems": [
+              "utrzymanie sesji użytkownika Serwisu (po zalogowaniu), dzięki której użytkownik nie musi na każdej podstronie Serwisu ponownie wpisywać loginu i hasła",
+              "realizacja celów określonych powyżej w części „Istotne techniki marketingowe”"
+            ]
+          },
+          {
+            "text": "W ramach Serwisu stosowane są dwa zasadnicze rodzaje plików cookies: „sesyjne” (session cookies) oraz „stałe” (persistent cookies). Cookies „sesyjne” są plikami tymczasowymi, które przechowywane są w urządzeniu końcowym Użytkownika do czasu wylogowania, opuszczenia strony internetowej lub wyłączenia oprogramowania (przeglądarki internetowej). „Stałe” pliki cookies przechowywane są w urządzeniu końcowym Użytkownika przez czas określony w parametrach plików cookies lub do czasu ich usunięcia przez Użytkownika."
+          },
+          {
+            "text": "Oprogramowanie do przeglądania stron internetowych (przeglądarka internetowa) zazwyczaj domyślnie dopuszcza przechowywanie plików cookies w urządzeniu końcowym Użytkownika. Użytkownicy Serwisu mogą dokonać zmiany ustawień w tym zakresie. Przeglądarka internetowa umożliwia usunięcie plików cookies lub ich automatyczne blokowanie. Szczegółowe informacje na ten temat zawiera pomoc lub dokumentacja przeglądarki internetowej."
+          },
+          {
+            "text": "Ograniczenia stosowania plików cookies mogą wpłynąć na niektóre funkcjonalności dostępne na stronach internetowych Serwisu."
+          },
+          {
+            "text": "Pliki cookies zamieszczane w urządzeniu końcowym Użytkownika Serwisu mogą być wykorzystywane również przez podmioty współpracujące z operatorem Serwisu, w szczególności przez firmy: Google (Google Inc. z siedzibą w USA), Facebook (Facebook Inc. z siedzibą w USA) oraz Twitter (Twitter Inc. z siedzibą w USA)."
+          }
+        ]
+      },
+      {
+        "title": "9. Zarządzanie plikami cookies – jak w praktyce wyrażać i cofać zgodę?",
+        "items": [
+          {
+            "text": "Jeśli użytkownik nie chce otrzymywać plików cookies, może zmienić ustawienia przeglądarki. Zastrzegamy, że wyłączenie obsługi plików cookies niezbędnych dla procesów uwierzytelniania, bezpieczeństwa oraz utrzymania preferencji użytkownika może utrudnić, a w skrajnych przypadkach może uniemożliwić korzystanie ze stron www."
+          },
+          {
+            "text": "W celu zarządzania ustawieniami cookies należy wybrać z listy poniżej przeglądarkę internetową, której się używa, i postępować zgodnie z instrukcjami:",
+            "subItems": [
+              {
+                "text": "Edge",
+                "url": "https://support.microsoft.com/pl-pl/help/10607/microsoft-edge-view-delete-browser-history"
+              },
+              {
+                "text": "Internet Explorer",
+                "url": "https://support.microsoft.com/pl-pl/help/278835/how-to-delete-cookie-files-in-internet-explorer"
+              },
+              {
+                "text": "Chrome",
+                "url": "http://support.google.com/chrome/bin/answer.py?hl=pl&answer=95647"
+              },
+              {
+                "text": "Safari",
+                "url": "http://support.apple.com/kb/PH5042"
+              },
+              {
+                "text": "Firefox",
+                "url": "http://support.mozilla.org/pl/kb/W%C5%82%C4%85czanie%20i%20wy%C5%82%C4%85czanie%20obs%C5%82ugi%20ciasteczek"
+              },
+              {
+                "text": "Opera",
+                "url": "http://help.opera.com/Windows/12.10/pl/cookies.html"
+              }
+            ]
+          },
+          {
+            "text": "Urządzenia mobilne:",
+            "subItems": [
+              {
+                "text": "Android",
+                "url": "http://support.google.com/chrome/bin/answer.py?hl=pl&answer=95647"
+              },
+              {
+                "text": "Safari (iOS)",
+                "url": "http://support.apple.com/kb/HT1677?viewlocale=pl_PL"
+              },
+              {
+                "text": "Windows Phone",
+                "url": "http://www.windowsphone.com/pl-pl/how-to/wp7/web/changing-privacy-and-other-browser-settings"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

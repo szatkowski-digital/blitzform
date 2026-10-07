@@ -1,0 +1,755 @@
+{
+  "common": {
+    "navigation": {
+      "offer": "Offer",
+      "about": "About Us",
+      "contact": "Contact",
+      "boxSystems": "01. Case-Based Systems",
+      "containerFactories": "02. Containerized Factories"
+    },
+    "footer": {
+      "badge": "Industrial & Mobile Systems",
+      "description": "Manufacturer of mobile and containerized 3D additive systems. Delivering full spare part manufacturing capabilities directly to operational zones.",
+      "status": "System ready for deployment 24/7",
+      "architectureTitle": "System Architecture",
+      "engineeringTitle": "Engineering & Contact",
+      "location": "Warsaw, Production Facility",
+      "standards": "Industrial Standards & R&D Research",
+      "support": "24/7 SLA Service Support",
+      "copyright": "BlitzForm Ltd. All rights reserved.",
+      "privacyPolicy": "Privacy Policy",
+      "technicalDocs": "Technical Documentation",
+      "links": {
+        "home": "Home",
+        "boxSystems": "Case-Based Systems",
+        "containerFactories": "Containerized Factories",
+        "about": "About Us",
+        "contact": "Contact & Pricing"
+      }
+    }
+  },
+
+  "home": {
+    "seo": {
+      "title": "BlitzForm | Mobile 3D Printing Systems for Military & Industry",
+      "description": "Mobile additive manufacturing units & ISO container factories. Certified spare parts and technical composite production in field conditions.",
+      "keywords": "mobile 3D printing, additive manufacturing, 3D container factory, military 3D printing, composite 3D printer, tactical case systems, spare parts production",
+      "ogTitle": "BlitzForm | Tactical & Industrial Mobile 3D Printing Stations",
+      "ogDescription": "Field-ready 3D printing systems in rugged cases and ISO containers. Produce replacement parts within 15 minutes of deployment.",
+      "ogAlt": "BlitzForm - Mobile Additive Manufacturing Platform",
+      "ogImage": "/og/home.jpg"
+    },
+    "hero": {
+      "badge": "Mobile Additive Manufacturing Systems",
+      "titleLine1": "On-Demand Production",
+      "titleGradient": "In Any Environment.",
+      "description": "Mobile additive stations for defense, mining, and critical infrastructure. Certified production of spare parts and technical composites within 15 minutes of deployment.",
+      "primaryCta": "Explore Systems & Packages",
+      "secondaryCta": "Consult Implementation"
+    },
+    "productTeasers": {
+      "badge": "Two Product Lines",
+      "title": "BlitzForm Mobile Architecture",
+      "description": "Choose the configuration tailored to your mission logistics: rapid modular case systems or full-scale ISO container factories.",
+      "cases": {
+        "badge": "From €14,000 / $15,000",
+        "priceBadge": "from €14,000",
+        "category": "Category A • Tactical Mobility",
+        "title": "Case-Based Systems",
+        "description": "Modular additive stations integrated into heavy-duty Peli/Explorer cases. Engineered for immediate transport via off-road vehicles, helicopters, or pickups.",
+        "features": {
+          "0": "Three packages: BASIC, PRO, ADVANCED",
+          "1": "Integrated heated chamber, dry box RH <15%, and UPS battery backup",
+          "2": "Optional 3D scanner and power generator integration"
+        },
+        "cta": "Compare Case Packages"
+      },
+      "containers": {
+        "badge": "Custom Quote",
+        "priceBadge": "Custom Quote",
+        "category": "Category B • Industrial Scale",
+        "title": "Containerized Factories",
+        "description": "Self-sustaining mini-factories in certified 20ft and 40ft ISO containers. Fully equipped with large-format 3D printers, CAD workstations, CNC, and post-processing areas.",
+        "features": {
+          "0": "Integrated HVAC system with activated carbon and HEPA H14 filters",
+          "1": "Independent power: diesel generator and LiFePO4 battery bank",
+          "2": "End-to-end workflow: reverse engineering, printing, washing, curing, and inspection"
+        },
+        "cta": "20ft / 40ft Container Specifications"
+      }
+    },
+    "featuresGrid": {
+      "items": {
+        "0": {
+          "title": "Industrial-Grade Hardware",
+          "desc": "Built exclusively with high-reliability industrial 3D hardware for maximum uptime."
+        },
+        "1": {
+          "title": "Ruggedized & Field-Ready",
+          "desc": "Operates seamlessly in extreme heat, cold, humidity, and dust where conventional printers fail."
+        },
+        "2": {
+          "title": "100% Offline Capability (Air-Gap)",
+          "desc": "Zero cloud dependencies – all CAD files and sensitive data remain strictly under your local control."
+        },
+        "3": {
+          "title": "Operational Within 1 Hour",
+          "desc": "Fully operational system ready for production in less than 60 minutes after unloading."
+        },
+        "4": {
+          "title": "Open-Source Ecosystem Integration",
+          "desc": "Powered by reliable, field-tested OctoPrint, Klipper, and CuraEngine environments."
+        },
+        "5": {
+          "title": "Modular Production Hub",
+          "desc": "A complete ecosystem combining 3D printing, 3D scanning, CAD/CAM workstations, and independent power."
+        },
+        "6": {
+          "title": "Engineering Material Support",
+          "desc": "Process high-performance polymers: Nylon, Carbon Fiber (CF) composites, ABS, ASA, and elastomers."
+        },
+        "7": {
+          "title": "Downtime Minimization",
+          "desc": "On-demand local part fabrication eliminates supply chain delays and logistical bottlenecks."
+        }
+      }
+    },
+    "blitzFormDepot": {
+      "badge": "New • Coming Soon",
+      "title": "BlitzForm Depot",
+      "description": "A digital spare parts repository for 3D printing. Certified CAD database and pre-sliced G-codes ready for instant field production.",
+      "cta": "Request Access",
+      "pillars": {
+        "0": {
+          "title": "Digital Part Twins",
+          "desc": "Thousands of fully dimensioned mechanical parts, fittings, and seals in a secure digital library without capital tied up in inventory."
+        },
+        "1": {
+          "title": "1-Click Printing Without Slicing",
+          "desc": "Pre-configured print profiles tailored for BlitzForm systems with material shrinkage compensation for PA12-CF, PEEK, and TPU."
+        },
+        "2": {
+          "title": "Hardware Autonomy & Air-Gap Mode",
+          "desc": "Complete data security and full functionality in strict air-gapped environments with instant local access."
+        }
+      }
+    }
+  },
+
+  "offer": {
+    "seo": {
+      "title": "Mobile 3D Printing Systems Catalog | BlitzForm Offer",
+      "description": "Explore BlitzForm mobile additive manufacturing units: tactical case systems and self-sustaining ISO container factories for field production.",
+      "keywords": "3D printing cases, container 3D factory, mobile 3D printer, composite 3D printing, 3D scanning in field, 3D printing training",
+      "ogTitle": "Mobile 3D Printing Systems & Container Factories Catalog",
+      "ogDescription": "Field-ready additive manufacturing in protective transport cases and 20ft/40ft ISO containers.",
+      "ogAlt": "BlitzForm Mobile 3D Printing Catalog",
+      "ogImage": "/og/offer.jpg"
+    },
+    "heroSection": {
+      "badgeText": "BlitzForm Mobile Systems Catalog",
+      "title": "Tactical & Field Manufacturing",
+      "subtitle": "Rugged case-based systems and containerized factories engineered for immediate spare parts production in demanding field environments.",
+      "links": {
+        "0": {
+          "label": "01. Case-Based Systems"
+        },
+        "1": {
+          "label": "02. Containerized Factories (ISO 20ft / 40ft)"
+        }
+      }
+    },
+    "featureAccordion": {
+      "boxes": {
+        "categoryNumber": "System 01 • Tactical Mobility",
+        "categoryTitle": "Case-Based Systems",
+        "categoryDescription": "Compact additive manufacturing stations enclosed in heavy-duty cases. Designed for rapid transport via off-road vehicles, helicopters, or mobile workshops.",
+        "imageAlt": "BlitzForm Case-Based 3D Printing Systems",
+        "features": {
+          "0": {
+            "title": "Protective Peli / Explorer Enclosure",
+            "summary": "Reinforced transport case with custom CNC-milled foam insert.",
+            "description": "The 3d printer and equipment are securely seated in a heavy-duty Peli / Explorer transport case with high-density CNC-milled foam inserts and axis locks for transport safety.",
+            "tag": "Case Systems • CNC Foam Inserts"
+          },
+          "1": {
+            "title": "Thermo-Active Chamber & Filament Dry Box",
+            "summary": "Low RH levels and stable thermal process control.",
+            "description": "Insulated build chamber with thermal regulation paired with an external filament drying box. Maintaining relative humidity below 15% RH ensures consistent printing with composite materials.",
+            "tag": "Low RH <15% • -20°C to +50°C Range"
+          },
+          "2": {
+            "title": "Power Autonomy & True On-Line UPS",
+            "summary": "Double-conversion UPS for clean power and surge protection.",
+            "description": "True On-Line UPS filters power from field generators to protect sensitive electronics against voltage spikes and power disruptions.",
+            "tag": "True On-Line UPS • Voltage Protection"
+          },
+          "3": {
+            "title": "Deployable Workstation Base",
+            "summary": "Full engineering station with high-CRI LED lighting.",
+            "description": "The lid unfolds into an ergonomic field workstation featuring anti-vibration docks, tool organizers, antistatic mats, and directional LED lighting.",
+            "tag": "Workstation • High-CRI LED"
+          },
+          "4": {
+            "title": "Reverse Engineering & 3D Scanning",
+            "summary": "Rapid 3D scanning of damaged parts to CAD model generation.",
+            "description": "Handheld 3D scanner integration enables rapid digitization of broken parts directly in the field for immediate composite 3D printing.",
+            "tag": "3D Scanner • CAD Integration"
+          }
+        }
+      },
+      "containers": {
+        "categoryNumber": "System 02 • Industrial Scale",
+        "categoryTitle": "Containerized Factories",
+        "categoryDescription": "Self-sustaining ISO 20ft and 40ft mobile factories equipped for full-cycle post-processing, HVAC air filtration, and autonomous power generation.",
+        "imageAlt": "BlitzForm 20ft and 40ft Containerized Factories",
+        "features": {
+          "0": {
+            "title": "Large-Format Machine Park (FDM / SLA / SLS)",
+            "summary": "Industrial 3D printers with build volumes up to 1 meter.",
+            "description": "Climate-controlled production area fitted with industrial additive manufacturing systems, supporting build volumes up to 1000 x 1000 x 1000 mm.",
+            "tag": "Build Volume up to 1m³ • Multi-Tech"
+          },
+          "1": {
+            "title": "HVAC System with HEPA H14 & Carbon Filtration",
+            "summary": "Positive pressure system preventing dust contamination.",
+            "description": "Industrial HVAC system maintains positive air pressure inside the container to block dust and sand while activated carbon and HEPA H14 filters purify process air.",
+            "tag": "HEPA H14 • Positive Pressure"
+          },
+          "2": {
+            "title": "Dedicated Post-Processing Zone",
+            "summary": "Ultrasonic washing, UV curing, and precision finishing.",
+            "description": "Separate post-processing station equipped with cleaning tanks, UV curing chambers, and finishing tools for composite and polymer components.",
+            "tag": "Washing & UV Curing • Finishing"
+          },
+          "3": {
+            "title": "Autonomous Diesel Generator & LiFePO4 Battery Bank",
+            "summary": "High operational autonomy independent of grid power.",
+            "description": "Integrated diesel power generator and LiFePO4 battery bank ensure continuous machine operation even in off-grid environments.",
+            "tag": "Diesel Generator • LiFePO4 Battery Bank"
+          },
+          "4": {
+            "title": "CAD Workstations & Isolated Local Network (Air-Gap)",
+            "summary": "Local CAD workstations with isolated data transfer.",
+            "description": "Dual engineering workstations allow local CAD modifications and slicing. Isolated local LAN/WLAN ensures fast file transfer under full air-gap security.",
+            "tag": "Air-Gap Security • Dual CAD Stations"
+          }
+        }
+      }
+    },
+    "boxPackages": {
+      "sectionBadge": "Configurations & Pricing Packages",
+      "sectionTitle": "Case-Based Systems — Packages",
+      "sectionDescription": "Clear hardware specifications tailored to your operational mobility requirements.",
+      "recommendedBadgeMobile": "★ Engineering Choice",
+      "recommendedBadgeDesktop": "Recommended by BlitzForm",
+      "selectButtonPrefix": "Select",
+      "packages": {
+        "basic": {
+          "name": "BASIC Package",
+          "badgeTag": "Case Systems • Entry",
+          "price": "€14,000",
+          "priceShort": "€14k",
+          "priceSubtext": "net / starter package",
+          "description": "Essential mobile setup for field manufacturing. Enables immediate local production of tools and replacement parts.",
+          "features": {
+            "0": "2× 3D Printer units",
+            "1": "External 4-spool filament dry box",
+            "2": "Deployable field workstation",
+            "3": "Hand tool kit",
+            "4": "Power tools set",
+            "5": "Heat-set insert soldering station",
+            "6": "Starter technical filament pack",
+            "7": "Dedicated UPS battery backup",
+            "8": "1-Day training course (up to 5 operators): 3D Printer Operation"
+          }
+        },
+        "pro": {
+          "name": "PRO Package",
+          "badgeTag": "Case Systems • Bestseller",
+          "price": "€24,500",
+          "priceShort": "€24.5k",
+          "priceSubtext": "net / optimal setup",
+          "description": "Complete field system designed for end-to-end operation — from CAD design to final part deployment.",
+          "features": {
+            "0": "2× 3D Printer units",
+            "1": "External 4-spool filament dry box",
+            "2": "Deployable field workstation",
+            "3": "Hand tool kit",
+            "4": "Power tools set",
+            "5": "Heat-set insert soldering station",
+            "6": "Expanded technical materials package (Carbon composites)",
+            "7": "Upgraded True On-Line UPS",
+            "8": "Mobile engineering workstation + CAD software",
+            "9": "3-Day certified training (up to 5 operators): 3D Operation & CAD Basics"
+          }
+        },
+        "advanced": {
+          "name": "ADVANCED Package",
+          "badgeTag": "Case Systems • Full Autonomy",
+          "price": "€58,000",
+          "priceShort": "€58k",
+          "priceSubtext": "net / full autonomy",
+          "description": "3D Printing + 3D Scanning + Reverse Engineering. Provides full technological independence without factory documentation.",
+          "features": {
+            "0": "4× 3D Printers + 2× External 4-spool dry boxes",
+            "1": "2× Deployable field workstations",
+            "2": "Hand tools + Power tools + Insert soldering station",
+            "3": "Expanded technical materials + True On-Line UPS",
+            "4": "Engineering workstation with CAD software",
+            "5": "Handheld 3D scanner with Geomagic software",
+            "6": "Field work tent + Fuel power generator",
+            "7": "5-Day certified training (up to 5 operators): 3D Printing, CAD, Scanning & Reverse Engineering"
+          }
+        }
+      }
+    },
+    "trainingPrograms": {
+      "badgeText": "Implementation Training",
+      "title": "Training Packages for Operators & Personnel",
+      "subtitle": "Up to 5 participants per group. Practical knowledge delivered by field experts.",
+      "programs": {
+        "0": {
+          "packageLabel": "Basic",
+          "price": "€700",
+          "duration": "1 Day (up to 5 participants)",
+          "title": "Basic Training Course",
+          "features": {
+            "0": "3D Printer operation & maintenance"
+          }
+        },
+        "1": {
+          "packageLabel": "Pro",
+          "price": "€1,800",
+          "duration": "3 Days (up to 5 participants)",
+          "title": "Intermediate Training Course",
+          "features": {
+            "0": "3D Printer operation & prep work",
+            "1": "CAD design basics (Fusion 360) for 3D printing (Certified)"
+          }
+        },
+        "2": {
+          "packageLabel": "Advanced",
+          "price": "€2,900",
+          "duration": "5 Days (up to 5 participants)",
+          "title": "Advanced Training Course",
+          "features": {
+            "0": "Advanced 3D printer operations",
+            "1": "CAD modeling for additive manufacturing",
+            "2": "Field 3D scanning procedures",
+            "3": "Reverse engineering basics (Certified)"
+          }
+        }
+      }
+    },
+    "containerPricing": {
+      "badgeText": "Custom Spec Build",
+      "title": "Containerized Factories — Custom Quote",
+      "subtitle": "Every ISO 20ft / 40ft containerized factory is custom-engineered to your requirements: selecting machine hardware, filtration systems, and power autonomy.",
+      "ctaText": "Request Containerized Factory Quote",
+      "steps": {
+        "0": {
+          "title": "Technological Audit",
+          "description": "Analysis of part requirements and additive process selection."
+        },
+        "1": {
+          "title": "Delivery & Integration",
+          "description": "Container preparation for road, sea, and air transport."
+        },
+        "2": {
+          "title": "Field Training & SLA",
+          "description": "Crew training with ongoing technical support."
+        }
+      }
+    },
+    "sectionDividers": {
+      "d1": {
+        "leftText": "Military & Industrial Catalog",
+        "centerText": "2026 Specification",
+        "rightText": "01 • Case Systems"
+      },
+      "d2": {
+        "leftText": "ISO / NATO Standard",
+        "centerText": "100% Autonomy",
+        "rightText": "02 • Containerized Factories"
+      },
+      "d3": {
+        "leftText": "Tactical Configurator",
+        "centerText": "Free Audit",
+        "rightText": "03 • Equipment Selection"
+      }
+    }
+  },
+
+  "about": {
+    "seo": {
+      "title": "About Us & Engineering Team | BlitzForm 3D Warsaw",
+      "description": "Polish engineering team developing mobile 3D printing stations. Empowering defense, industry, and emergency services with on-demand field manufacturing.",
+      "keywords": "Polish 3D printing manufacturer, 3D engineering team, mobile additive manufacturing, field spare parts, R&D reverse engineering",
+      "ogTitle": "About BlitzForm | Mobile Manufacturing & Additive Engineering",
+      "ogDescription": "Discover the Polish engineering team behind field-ready autonomous additive manufacturing stations in protective cases and ISO containers.",
+      "ogAlt": "BlitzForm 3D Engineering Team",
+      "ogImage": "/og/about.jpg"
+    },
+    "aboutHero": {
+      "badge": "About Company & Team • BlitzForm",
+      "titleLine1": "Manufacturing Right Where",
+      "titleGradient": "Supply Chains End",
+      "description": "We are a Polish engineering team developing mobile additive manufacturing systems designed to free defense, industry, and emergency services from supply chain delays.",
+      "metrics": {
+        "0": {
+          "id": "01 • Engineering & R&D",
+          "value": "Warsaw",
+          "title": "In-House R&D Center",
+          "desc": "All enclosures and stations are designed, integrated, and assembled in Poland to suit client specifications."
+        },
+        "1": {
+          "id": "02 • Implementation Team",
+          "value": "3D Practitioners",
+          "title": "Designers & Technicians",
+          "desc": "Combining experience in mechanics, technical polymer 3D printing, CAD reverse engineering, and field power systems."
+        },
+        "2": {
+          "id": "03 • Partnership",
+          "value": "End-to-End",
+          "title": "Deployment & Personnel Training",
+          "desc": "We deliver fully functional workstations, train operating personnel, and offer post-deployment technical support."
+        }
+      }
+    },
+    "aboutManifest": {
+      "badge": "01 • Mission & Philosophy",
+      "location": "Warsaw",
+      "country": "Poland",
+      "title": "Why BlitzForm Was Founded",
+      "paragraph1": "Traditional logistics rely on large central spare parts warehouses. In an era of global disruptions, asymmetric conflicts, and remote field operations, this model is failing.",
+      "paragraph2HighlightBefore": "The ",
+      "paragraph2Strong": "BlitzForm",
+      "paragraph2HighlightAfter": " philosophy reverses this paradigm: instead of shipping thousands of physical parts, we equip field teams with on-site manufacturing capabilities and complete operational autonomy from 3D scan to final part.",
+      "quoteText": "A spare part arriving three days too late has the exact same value as one that was never manufactured. Mobile 3D printing cuts waiting time to zero.",
+      "quoteAuthor": "BlitzForm Founding Team",
+      "sectorsTitle": "Who We Serve",
+      "sectors": {
+        "0": {
+          "title": "Defense & Armed Forces",
+          "desc": "Supporting field maintenance workshops in keeping vehicles, drones, communication tools, and equipment operational."
+        },
+        "1": {
+          "title": "Mining & Heavy Industry",
+          "desc": "Rapid local manufacturing of custom machine parts, covers, brackets, and fittings without weeks of production line downtime."
+        },
+        "2": {
+          "title": "Offshore & Energy",
+          "desc": "Autonomous spare parts manufacturing for maintenance crews operating far from central supply hubs."
+        },
+        "3": {
+          "title": "Emergency & Crisis Services",
+          "desc": "On-demand fabrication of custom adapters, conduit connectors, and specialized tools right in operational zones."
+        }
+      }
+    },
+    "aboutCta": {
+      "badge": "Deployment in Your Organization",
+      "title": "Ready for On-Site Manufacturing Independence?",
+      "description": "Our engineers will conduct a part requirement audit and configure the optimal case-based or containerized package for your mission.",
+      "primaryCta": "Explore Equipment Packages",
+      "secondaryCta": "Contact Our Team"
+    }
+  },
+
+  "contact": {
+    "seo": {
+      "title": "Contact & Implementation Consultation | BlitzForm 3D",
+      "description": "Contact our engineering team regarding mobile 3D printing stations and containerized factories. Fast custom quotes, specs, and technology audits.",
+      "keywords": "BlitzForm contact, 3D printing quote, additive manufacturing consultation, mobile 3D system pricing, technology audit 3D",
+      "ogTitle": "Configure Your Mobile 3D Printing Deployment | BlitzForm",
+      "ogDescription": "Request a free quote and engineering consultation for case-based and containerized 3D printing systems.",
+      "ogAlt": "BlitzForm 3D Contact Form",
+      "ogImage": "/og/contact.jpg"
+    },
+    "contactHero": {
+      "badgeText": "Contact & RFQ",
+      "title": "Configure Implementation",
+      "subtitle": "Our engineers will prepare a technical proposal, material specification, and implementation timeline for your project."
+    },
+    "contactFormContent": {
+      "successTitle": "Inquiry Successfully Sent",
+      "successDescriptionPrefix": "Thank you for reaching out. Our team will contact you at",
+      "successDescriptionSuffix": "with a customized specification.",
+      "successButtonText": "Send another inquiry",
+      "nameLabel": "Full Name",
+      "namePlaceholder": "e.g. John Doe",
+      "organizationLabel": "Company / Organization",
+      "organizationPlaceholder": "e.g. Industrial Solutions Ltd.",
+      "emailLabel": "Email Address",
+      "emailPlaceholder": "your.email@domain.com",
+      "phoneLabel": "Phone Number",
+      "phonePlaceholder": "+48 000 000 000",
+      "messageLabel": "Technical Requirements / Mission Brief",
+      "messagePlaceholder": "Describe the types of components or materials required...",
+      "submittingText": "Processing request...",
+      "submitButtonText": "Submit Inquiry to Engineer",
+      "defaultError": "Failed to send inquiry.",
+      "connectionError": "Server connection error. Please try again."
+    },
+    "contactSidebar": {
+      "badgeText": "Headquarters & Inquiries",
+      "companyName": "BlitzForm 3D",
+      "emailLabel": "Email address:",
+      "emailValue": "office@blitzform3d.com",
+      "locationLabel": "Manufacturing Facility:",
+      "locationValue": "Warsaw, Poland",
+      "responseTimeLabel": "Response Time:",
+      "responseTimeValue": "Within 4 business hours"
+    },
+    "categorySelector": {
+      "step1Label": "1. Select inquiry category:",
+      "step2Label": "2. Select case system package variant:",
+      "categories": {
+        "boxes": {
+          "title": "Case-Based System",
+          "subtitle": "BASIC, PRO, ADVANCED"
+        },
+        "containers": {
+          "title": "Container System",
+          "subtitle": "ISO Factory"
+        },
+        "consultation": {
+          "title": "Implementation Consultation",
+          "subtitle": "Technology selection & audit"
+        }
+      },
+      "boxSubOptions": {
+        "basic": {
+          "name": "Basic",
+          "price": "Standard"
+        },
+        "pro": {
+          "name": "Pro",
+          "price": "Popular"
+        },
+        "advanced": {
+          "name": "Advanced",
+          "price": "Industrial"
+        }
+      }
+    }
+  },
+
+  "privacy": {
+    "title": "Privacy Policy",
+    "sections": [
+      {
+        "title": "1. General Information",
+        "items": [
+          {
+            "text": "This policy applies to the Website operating at the URL: www.blitzform3d.com"
+          },
+          {
+            "text": "The operator of the website and the Data Controller is: BlitzForm, Aleje Jerozolimskie 109/70, 02-011 Warsaw"
+          },
+          {
+            "text": "The operator's contact email address: office@blitzform3d.com"
+          },
+          {
+            "text": "The Operator is the Controller of your personal data in relation to the data voluntarily provided on the Website."
+          },
+          {
+            "text": "The Website collects information about users and their behavior in the following ways:",
+            "subItems": [
+              "Through voluntarily submitted data in forms, which is entered into the Operator's systems.",
+              "Through storing cookies on end devices."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "2. Selected Data Protection Methods Used by the Operator",
+        "items": [
+          {
+            "text": "Login areas and fields for entering personal data are protected at the transmission layer (SSL certificate). This ensures that personal data and login information entered on the website are encrypted on the user's computer and can only be read on the destination server."
+          }
+        ]
+      },
+      {
+        "title": "3. Hosting",
+        "items": [
+          {
+            "text": "The Website is hosted (technically maintained) on the operator's server: cyberFolks.pl"
+          },
+          {
+            "text": "The hosting company maintains logs at the server level to ensure technical reliability. The following information may be recorded:",
+            "subItems": [
+              "resources identified by URL (addresses of requested resources – pages, files)",
+              "time the request was received",
+              "time the response was sent",
+              "client workstation name – identification carried out via the HTTP protocol",
+              "information about errors that occurred during the execution of HTTP transactions",
+              "URL of the previously visited page by the user (referrer link) – if access to the Website occurred via a link",
+              "information about the user's browser",
+              "information about the IP address",
+              "diagnostic information related to the process of self-ordering services through online registrars on the site",
+              "information related to handling emails sent to or from the Operator"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "4. Your Rights and Additional Information on Data Usage",
+        "items": [
+          {
+            "text": "Your personal data is processed by the Controller no longer than necessary to perform activities related to it as required by separate regulations (e.g., accounting). For marketing data, processing will not exceed 3 years."
+          },
+          {
+            "text": "You have the right to request from the Controller:",
+            "subItems": [
+              "access to your personal data",
+              "rectification of your personal data",
+              "erasure of your personal data",
+              "restriction of processing",
+              "data portability"
+            ]
+          },
+          {
+            "text": "You have the right to object to the processing of your personal data for the purpose of pursuing the legitimate interests of the Controller, including profiling, provided that the right to object cannot be exercised if there are legally justified grounds for processing that override your interests, rights, and freedoms, in particular for the establishment, pursuit, or defense of claims."
+          },
+          {
+            "text": "You may file a complaint regarding the Controller’s actions with the President of the Personal Data Protection Office, ul. Stawki 2, 00-193 Warsaw."
+          },
+          {
+            "text": "Providing personal data is voluntary, but necessary for the operation of the Website."
+          },
+          {
+            "text": "Actions involving automated decision-making, including profiling, may be taken with respect to you to provide services under the concluded agreement and for the Controller’s direct marketing purposes."
+          },
+          {
+            "text": "Personal data may be transferred to third countries within the meaning of data protection regulations, which means they may be sent outside the European Union."
+          }
+        ]
+      },
+      {
+        "title": "5. Information in Forms",
+        "items": [
+          {
+            "text": "The Website collects information voluntarily provided by the user, including personal data, if submitted."
+          },
+          {
+            "text": "The Website may record information about connection parameters, in particular the timestamp and IP address."
+          },
+          {
+            "text": "In some cases, the Website may store information that facilitates linking data submitted in a form with the email address of the user completing the form. In such cases, the user's email address may appear within the URL of the page containing the form."
+          },
+          {
+            "text": "Data submitted in the form is processed for purposes resulting from the specific function of the form, in particular for handling service requests, commercial contact, service registration, or other actions described in the context of the given form. Each form description clearly informs the user of its purpose."
+          }
+        ]
+      },
+      {
+        "title": "6. Administrator Logs",
+        "items": [
+          {
+            "text": "Information about users’ behavior on the Website may be logged."
+          },
+          {
+            "text": "These data are used solely for the purpose of administering the Website and ensuring its proper functioning."
+          }
+        ]
+      },
+      {
+        "title": "7. Relevant Marketing Techniques",
+        "items": [
+          {
+            "text": "The Controller may use marketing techniques in accordance with applicable law, in particular for direct marketing, only with respect to users who have given their appropriate consent."
+          }
+        ]
+      },
+      {
+        "title": "8. Information About Cookies",
+        "items": [
+          {
+            "text": "The Website uses cookies."
+          },
+          {
+            "text": "Cookies are computer data, in particular text files, which are stored on the end device of the Website User and are intended for use on the Website's pages. Cookies usually contain the name of the website they come from, the time they are stored on the end device, and a unique number."
+          },
+          {
+            "text": "The entity placing cookies on the end device of the Website User and accessing them is the Website operator."
+          },
+          {
+            "text": "Cookies are used for the following purposes:",
+            "subItems": [
+              "maintaining the user's session on the Website (after logging in), allowing the user not to re-enter the login and password on each subpage of the Website",
+              "carrying out the purposes described above in the section 'Relevant Marketing Techniques'"
+            ]
+          },
+          {
+            "text": "Two main types of cookies are used on the Website: 'session' cookies and 'persistent' cookies. 'Session' cookies are temporary files stored on the User's device until logging out, leaving the website, or closing the browser. 'Persistent' cookies are stored on the User's device for the time specified in the cookie parameters or until they are deleted by the User."
+          },
+          {
+            "text": "Web browsing software (web browser) usually allows cookies to be stored on the User's device by default. Website Users can change these settings. The browser allows cookies to be deleted or automatically blocked. Detailed information on this can be found in the browser's help or documentation."
+          },
+          {
+            "text": "Restrictions on the use of cookies may affect some functionalities available on the Website's pages."
+          },
+          {
+            "text": "Cookies placed on the User's end device may also be used by entities cooperating with the Website operator, in particular by companies such as Google (Google Inc., USA), Facebook (Facebook Inc., USA), and Twitter (Twitter Inc., USA)."
+          }
+        ]
+      },
+      {
+        "title": "9. Managing Cookies – How to Give and Withdraw Consent in Practice",
+        "items": [
+          {
+            "text": "If a user does not want to receive cookies, they can change their browser settings. Please note that disabling cookies necessary for authentication, security, and maintaining user preferences may make it difficult, and in extreme cases may prevent, the use of the website."
+          },
+          {
+            "text": "To manage cookie settings, select your web browser from the list below and follow the instructions:",
+            "subItems": [
+              {
+                "text": "Edge",
+                "url": "https://support.microsoft.com/pl-pl/help/10607/microsoft-edge-view-delete-browser-history"
+              },
+              {
+                "text": "Internet Explorer",
+                "url": "https://support.microsoft.com/pl-pl/help/278835/how-to-delete-cookie-files-in-internet-explorer"
+              },
+              {
+                "text": "Chrome",
+                "url": "http://support.google.com/chrome/bin/answer.py?hl=pl&answer=95647"
+              },
+              {
+                "text": "Safari",
+                "url": "http://support.apple.com/kb/PH5042"
+              },
+              {
+                "text": "Firefox",
+                "url": "http://support.mozilla.org/pl/kb/W%C5%82%C4%85czanie%20i%20wy%C5%82%C4%85czanie%20obs%C5%82ugi%20ciasteczek"
+              },
+              {
+                "text": "Opera",
+                "url": "http://help.opera.com/Windows/12.10/pl/cookies.html"
+              }
+            ]
+          },
+          {
+            "text": "Mobile devices:",
+            "subItems": [
+              {
+                "text": "Android",
+                "url": "http://support.google.com/chrome/bin/answer.py?hl=pl&answer=95647"
+              },
+              {
+                "text": "Safari (iOS)",
+                "url": "http://support.apple.com/kb/HT1677?viewlocale=pl_PL"
+              },
+              {
+                "text": "Windows Phone",
+                "url": "http://www.windowsphone.com/pl-pl/how-to/wp7/web/changing-privacy-and-other-browser-settings"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
