@@ -40,7 +40,7 @@ const linkVariants: Variants = {
 
 export const MobileNav = ({ open, handleClick }: MobileMenuProps) => {
   const t = useTranslations("common");
-  const { isLinkActive, isPathActive } = useActiveRoute();
+  const { pathname, isLinkActive, isPathActive } = useActiveRoute();
   const [, startTransition] = useTransition();
 
   const handleNavClick = () => {
@@ -49,6 +49,25 @@ export const MobileNav = ({ open, handleClick }: MobileMenuProps) => {
         handleClick();
       }
     });
+  };
+
+  const handleSubItemClick = (
+    e: React.MouseEvent<HTMLAnchorElement>,
+    href: string
+  ) => {
+    const [targetPath, hash] = href.split("#");
+    const isCurrentPage =
+      pathname === targetPath || pathname === `${targetPath}/`;
+
+    if (hash && isCurrentPage) {
+      e.preventDefault();
+      const element = document.getElementById(hash);
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth", block: "start" });
+      }
+      window.history.pushState(null, "", href);
+    }
+    handleNavClick();
   };
 
   return (
@@ -98,7 +117,7 @@ export const MobileNav = ({ open, handleClick }: MobileMenuProps) => {
                           <Link
                             key={subItem.href}
                             href={subItem.href}
-                            onClick={handleNavClick}
+                            onClick={(e) => handleSubItemClick(e, subItem.href)}
                             prefetch={false}
                             className={`w-full py-1.5 px-3 rounded-lg text-sm font-mono uppercase tracking-wider transition-colors duration-200 ${
                               isActive

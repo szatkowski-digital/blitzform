@@ -31,7 +31,7 @@ export const BlitzFormDepot: React.FC<BlitzFormDepotProps> = ({
   cta,
   pillars,
 }) => (
-  <section className="py-12" id="blitzform-depot">
+  <section className="py-12 max-w-7xl" id="blitzform-depot">
     <div className="relative rounded-3xl p-6 sm:p-10 md:p-12 bg-zinc-950/80 border border-zinc-800/60 shadow-2xl overflow-hidden">
       <div className="relative z-10 space-y-8">
         {/* Header */}

@@ -9,7 +9,7 @@
     },
     "footer": {
       "badge": "Systemy Przemysłowe i Mobilne",
-      "description": "Producent mobilnych i kontenerowych systemów addytywnych druku 3D. Dostarczamy pełną zdolność produkcyjną części zamiennych bezpośrednio w strefę operacyjną.",
+      "description": "Producent mobilnych systemów druku 3D, w tym rozwiązań kontenerowych. Umożliwiamy wytwarzanie części zamiennych bezpośrednio w miejscu prowadzenia działań.",
       "status": "System gotowy do wdrożenia 24/7",
       "architectureTitle": "Architektura Systemów",
       "engineeringTitle": "Inżynieria i Kontakt",
@@ -44,8 +44,13 @@
       "titleLine1": "Natychmiastowa Produkcja",
       "titleGradient": "W Każdych Warunkach.",
       "description": "Mobilne stacje addytywne dla wojska, przemysłu wydobywczego i infrastruktury krytycznej. Certyfikowana produkcja części zamiennych i kompozytów technicznych w 15 minut od dyslokacji.",
-      "primaryCta": "Zobacz Systemy i Pakiety",
-      "secondaryCta": "Skonsultuj Wdrożenie"
+      "primaryCta": "Zobacz Ofertę",
+      "secondaryCta": "Konsultacja"
+    },
+    "heroVideo": {
+      "cursorText": "Systemy Skrzyniowe",
+      "imageAlt": "Systemy Skrzyniowe BlitzForm",
+      "ariaLabel": "Prezentacja Systemów Skrzyniowych BlitzForm"
     },
     "productTeasers": {
       "badge": "Dwie Linie Produktowe",

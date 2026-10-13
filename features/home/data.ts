@@ -7,6 +7,13 @@ export const getHeroData = (t: (key: string) => string) => ({
   secondaryCta: t("hero.secondaryCta"),
 });
 
+export const getHeroVideoData = (t: (key: string) => string) => ({
+  cursorText: t("heroVideo.cursorText"),
+  ariaLabel: t("heroVideo.ariaLabel"),
+  imageAlt: t("heroVideo.imageAlt"),
+  href: "/offer#section-boxes",
+});
+
 export const getProductTeasersData = (t: (key: string) => string) => ({
   badge: t("productTeasers.badge"),
   title: t("productTeasers.title"),

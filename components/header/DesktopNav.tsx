@@ -10,8 +10,27 @@ import { Link } from "@/i18n/navigation";
 
 export const DesktopNav = () => {
   const t = useTranslations("common");
-  const { isLinkActive } = useActiveRoute();
+  const { pathname, isLinkActive } = useActiveRoute();
   const [hoveredItem, setHoveredItem] = useState<string | null>(null);
+
+  const handleSubItemClick = (
+    e: React.MouseEvent<HTMLAnchorElement>,
+    href: string
+  ) => {
+    const [targetPath, hash] = href.split("#");
+    const isCurrentPage =
+      pathname === targetPath || pathname === `${targetPath}/`;
+
+    if (hash && isCurrentPage) {
+      e.preventDefault();
+      const element = document.getElementById(hash);
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth", block: "start" });
+      }
+      window.history.pushState(null, "", href);
+      setHoveredItem(null);
+    }
+  };
 
   return (
     <nav className="hidden lg:flex flex-1 text-n-1">
@@ -47,6 +66,7 @@ export const DesktopNav = () => {
                         <Link
                           key={subItem.href}
                           href={subItem.href}
+                          onClick={(e) => handleSubItemClick(e, subItem.href)}
                           className="group"
                         >
                           <span className="text-xs whitespace-nowrap uppercase tracking-wide font-bold text-n-1 group-hover:text-primary transition-colors">

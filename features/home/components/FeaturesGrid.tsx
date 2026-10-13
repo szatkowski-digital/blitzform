@@ -37,7 +37,7 @@ const FEATURE_ICONS: LucideIcon[] = [
 ];
 
 export const FeaturesGrid: React.FC<FeaturesGridProps> = ({ features }) => (
-  <section className="py-16 md:py-20" id="features-grid">
+  <section className="py-16 md:py-20 max-w-7xl" id="features-grid">
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-x-8 gap-y-10">
       {features.map((feat, idx) => {
         const Icon = FEATURE_ICONS[idx] || Factory;

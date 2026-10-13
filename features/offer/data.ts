@@ -21,7 +21,7 @@ export const getFeaturesData = (t: (key: string) => string) => ({
     categoryNumber: t("featureAccordion.boxes.categoryNumber"),
     categoryTitle: t("featureAccordion.boxes.categoryTitle"),
     categoryDescription: t("featureAccordion.boxes.categoryDescription"),
-    imageSrc: "/images/box_systems.avif",
+    imageSrc: "/images/box_systems.webp",
     imageAlt: t("featureAccordion.boxes.imageAlt"),
     features: [
       {
@@ -70,7 +70,7 @@ export const getFeaturesData = (t: (key: string) => string) => ({
     categoryNumber: t("featureAccordion.containers.categoryNumber"),
     categoryTitle: t("featureAccordion.containers.categoryTitle"),
     categoryDescription: t("featureAccordion.containers.categoryDescription"),
-    imageSrc: "/images/container_systems.avif",
+    imageSrc: "/images/container_systems.webp",
     imageAlt: t("featureAccordion.containers.imageAlt"),
     features: [
       {

@@ -25,7 +25,7 @@ export const Button = ({
 }: ButtonProps) => {
   // Usunięto sm:w-auto, aby przycisk zawsze zajmował pełną szerokość (w-full)
   const baseClasses =
-    "group relative overflow-hidden w-full px-8 py-4 rounded-full font-display text-sm flex items-center justify-between cursor-pointer select-none focus:outline-none focus-visible:ring-2 focus-visible:ring-primary border transition-colors";
+    "group relative overflow-hidden w-auto lg:w-full  px-4 lg:px-6 py-2 lg:py-3 rounded-full font-display text-sm flex items-center justify-between cursor-pointer select-none focus:outline-none focus-visible:ring-2 focus-visible:ring-primary border transition-colors";
 
   // Stylizacja wariantów
   const variantClasses = {

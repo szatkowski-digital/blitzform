@@ -70,7 +70,7 @@ export const ProductTeasers: React.FC<ProductTeasersProps> = ({
   ];
 
   return (
-    <section className="py-16" id="product-teasers">
+    <section className="py-16 relative z-20 max-w-7xl" id="product-teasers">
       {/* Header */}
       <div className="text-center max-w-2xl mx-auto mb-12 space-y-3">
         <Badge variant="ghost">{badge}</Badge>
@@ -149,7 +149,7 @@ const TeaserCard: React.FC<TeaserCardProps> = ({
               <Icon className="w-5 h-5" />
             </div>
             <div>
-              <span className="p-0 text-[11px] font-mono uppercase tracking-wider">
+              <span className="p-0 text-[11px] text-white font-mono uppercase tracking-wider">
                 {item.category}
               </span>
               <h3 className="font-display text-xl sm:text-2xl font-bold text-white group-hover:text-primary transition-colors">

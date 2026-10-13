@@ -16,28 +16,24 @@ export const Footer: React.FC = () => {
               <span className="font-display text-lg font-black text-white tracking-tight">
                 BLITZ<span className="text-primary">FORM</span>
               </span>
-              <span className="text-[11px] font-mono font-medium bg-zinc-900 border border-zinc-800 px-2.5 py-0.5 rounded-full text-zinc-400">
+              <span className="text-[11px] font-mono font-medium bg-zinc-900 border border-zinc-800 px-2.5 py-0.5 rounded-full text-zinc-300">
                 {t("badge")}
               </span>
             </div>
-            <p className="text-zinc-400 text-sm leading-relaxed max-w-md font-sans">
+            <p className="text-zinc-300 text-sm leading-relaxed max-w-md font-sans">
               {t("description")}
             </p>
-            <div className="flex items-center gap-2 text-xs font-mono text-zinc-500">
-              <span className="inline-block w-2 h-2 rounded-full bg-[#8FA85B]" />
-              <span>{t("status")}</span>
-            </div>
           </div>
 
           <div className="space-y-3">
             <h4 className="font-display text-sm font-bold text-zinc-100">
               {t("architectureTitle")}
             </h4>
-            <ul className="space-y-2 font-sans text-xs sm:text-sm">
+            <ul className="space-y-2 font-sans text-xs sm:text-sm text-zinc-200">
               <li>
                 <Link
                   href="/"
-                  className="hover:text-white transition-colors block"
+                  className="hover:text-primary transition-colors block"
                 >
                   {t("links.home")}
                 </Link>
@@ -55,7 +51,7 @@ export const Footer: React.FC = () => {
                 <Link
                   scroll={true}
                   href="/offer#section-containers"
-                  className="hover:text-[#98B364] transition-colors block"
+                  className="hover:text-primary transition-colors block"
                 >
                   {t("links.containerFactories")}
                 </Link>
@@ -63,7 +59,7 @@ export const Footer: React.FC = () => {
               <li>
                 <Link
                   href="/about"
-                  className="hover:text-white transition-colors block"
+                  className="hover:text-primary transition-colors block"
                 >
                   {t("links.about")}
                 </Link>
@@ -71,7 +67,7 @@ export const Footer: React.FC = () => {
               <li>
                 <Link
                   href="/contact"
-                  className="hover:text-white transition-colors block"
+                  className="hover:text-primary transition-colors block"
                 >
                   {t("links.contact")}
                 </Link>
@@ -83,7 +79,7 @@ export const Footer: React.FC = () => {
             <h4 className="font-display text-sm font-bold text-zinc-100">
               {t("engineeringTitle")}
             </h4>
-            <div className="space-y-2.5 text-zinc-400 font-sans text-xs sm:text-sm">
+            <div className="space-y-2.5 text-zinc-200 font-sans text-xs sm:text-sm">
               <a
                 href="mailto:office@blitzform3d.com"
                 className="flex items-center gap-2 hover:text-white transition-colors text-zinc-200 font-semibold"
@@ -92,32 +88,28 @@ export const Footer: React.FC = () => {
                 <span>office@blitzform3d.com</span>
               </a>
               <div className="flex items-center gap-2">
-                <MapPin className="w-4 h-4 text-zinc-500" />
+                <MapPin className="w-4 h-4 text-zinc-200" />
                 <span>{t("location")}</span>
               </div>
               <div className="flex items-center gap-2">
-                <ShieldCheck className="w-4 h-4 text-zinc-500" />
+                <ShieldCheck className="w-4 h-4 text-zinc-200" />
                 <span>{t("standards")}</span>
               </div>
               <div className="flex items-center gap-2">
-                <Terminal className="w-4 h-4 text-zinc-500" />
+                <Terminal className="w-4 h-4 text-zinc-200" />
                 <span>{t("support")}</span>
               </div>
             </div>
           </div>
         </div>
 
-        <div className="pt-8 border-t border-zinc-900 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-zinc-500 font-sans">
+        <div className="pt-8 border-t border-zinc-300/10 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-zinc-300 font-sans">
           <div>
             © {new Date().getFullYear()} {t("copyright")}
           </div>
           <div className="flex items-center gap-4">
-            <span className="hover:text-zinc-300 transition-colors cursor-pointer">
+            <span className="hover:text-zinc-100 transition-colors cursor-pointer">
               {t("privacyPolicy")}
-            </span>
-            <span>•</span>
-            <span className="hover:text-zinc-300 transition-colors cursor-pointer">
-              {t("technicalDocs")}
             </span>
           </div>
         </div>

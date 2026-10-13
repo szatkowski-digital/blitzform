@@ -9,7 +9,7 @@
     },
     "footer": {
       "badge": "Industrial & Mobile Systems",
-      "description": "Manufacturer of mobile and containerized 3D additive systems. Delivering full spare part manufacturing capabilities directly to operational zones.",
+      "description": "Manufacturer of mobile 3D printing systems, including containerized solutions. We enable on-demand spare parts production directly at the point of need.",
       "status": "System ready for deployment 24/7",
       "architectureTitle": "System Architecture",
       "engineeringTitle": "Engineering & Contact",
@@ -44,8 +44,13 @@
       "titleLine1": "On-Demand Production",
       "titleGradient": "In Any Environment.",
       "description": "Mobile additive stations for defense, mining, and critical infrastructure. Certified production of spare parts and technical composites within 15 minutes of deployment.",
-      "primaryCta": "Explore Systems & Packages",
-      "secondaryCta": "Consult Implementation"
+      "primaryCta": "View Offer",
+      "secondaryCta": "Consultation"
+    },
+    "heroVideo": {
+      "cursorText": "Case Systems",
+      "imageAlt": "BlitzForm Flight Cases",
+      "ariaLabel": "BlitzForm Flight Cases presentation"
     },
     "productTeasers": {
       "badge": "Two Product Lines",
