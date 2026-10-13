@@ -45,7 +45,7 @@ export default async function RootLayout({ children, params }: Props) {
       <body className="min-h-full flex flex-col bg-surface-dark">
         <NextIntlClientProvider locale={locale} messages={messages}>
           <Header />
-          {children}
+          <main>{children}</main>
           <Footer />
         </NextIntlClientProvider>
       </body>
