@@ -179,6 +179,7 @@
     },
     "aboutManifest": {
       "badge": "01 • Misja i Filozofia BlitzForm",
+      "badgeInfo": "O firmie",
       "location": "Warszawa",
       "country": "Polska",
       "title": "Dlaczego Powstał BlitzForm?",
@@ -206,6 +207,25 @@
           "title": "Służby Ratownicze i Kryzysowe",
           "desc": "Wytwarzanie doraźnych adapterów, złączek instalacyjnych i osprzętu technicznego bezpośrednio w rejonie działań."
         }
+      },
+      "teamTitle": "Zespół Blitzform",
+      "teamParagraph": "Ludzie stojący za koncepcją, technologią i wdrożeniami terenowymi BlitzForm.",
+      "teamBadge": "02 • Kadra Inżynieryjna",
+      "team": {
+        "dawid": {
+          "role": "Produkcja i Inżynieria"
+        },
+        "bartosz": {
+          "role": "Inżynieria i Operacje"
+        },
+        "pawel": {
+          "role": "Systemy i Automatyzacja"
+        }
+      },
+      "marquee": {
+        "step1": "PROJEKT",
+        "step2": "MOBILNOŚĆ",
+        "step3": "PRODUKCJA"
       }
     },
     "aboutCta": {

@@ -430,6 +430,7 @@
     },
     "aboutManifest": {
       "badge": "01 • Mission & Philosophy",
+      "badgeInfo": "About us",
       "location": "Warsaw",
       "country": "Poland",
       "title": "Why BlitzForm Was Founded",
@@ -457,6 +458,25 @@
           "title": "Emergency & Crisis Services",
           "desc": "On-demand fabrication of custom adapters, conduit connectors, and specialized tools right in operational zones."
         }
+      },
+      "teamTitle": "Blitzform Team",
+      "teamParagraph": "The people behind the concept, technology, and field deployments of BlitzForm.",
+      "teamBadge": "02 • Engineering Team",
+      "team": {
+        "dawid": {
+          "role": "Production & Engineering"
+        },
+        "bartosz": {
+          "role": "Engineering & Operations"
+        },
+        "pawel": {
+          "role": "Systems & Automation"
+        }
+      },
+      "marquee": {
+        "step1": "DESIGN",
+        "step2": "MOBILITY",
+        "step3": "PRODUCTION"
       }
     },
     "aboutCta": {

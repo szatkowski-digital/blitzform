@@ -2,6 +2,7 @@
 
 import { useRef, useEffect } from "react";
 import TeamSection from "./TeamSection";
+import { data } from "framer-motion/client";
 
 interface TeamMember {
   id: string;
@@ -16,8 +17,15 @@ interface Sector {
   desc: string;
 }
 
+type MarqueeData = {
+  step1: string;
+  step2: string;
+  step3: string;
+};
+
 interface AboutManifestProps {
   badge: string;
+  badgeInfo: string;
   location: string;
   country: string;
   title: string;
@@ -29,11 +37,16 @@ interface AboutManifestProps {
   quoteAuthor: string;
   sectorsTitle: string;
   sectors: Sector[];
+  teamTitle: string;
+  teamParagraph: string;
+  teamBadge: string;
   teamMembers: TeamMember[];
+  marquee: MarqueeData;
 }
 
 export const AboutManifest: React.FC<AboutManifestProps> = ({
   badge,
+  badgeInfo,
   location,
   country,
   title,
@@ -45,7 +58,11 @@ export const AboutManifest: React.FC<AboutManifestProps> = ({
   quoteAuthor,
   sectorsTitle,
   sectors,
+  teamTitle,
+  teamParagraph,
+  teamBadge,
   teamMembers,
+  marquee,
 }) => {
   const marqueeTrackRef = useRef<HTMLDivElement>(null);
   const xPercentRef = useRef<number>(-50);
@@ -102,24 +119,24 @@ export const AboutManifest: React.FC<AboutManifestProps> = ({
     };
   }, []);
 
-  const renderMarqueeUnit = (keyPrefix: string) => (
+  const renderMarqueeUnit = (marquee: MarqueeData, keyPrefix: string) => (
     <div className="flex items-center shrink-0">
       {[0, 1, 2].map((idx) => (
         <div key={`${keyPrefix}-${idx}`} className="flex items-center shrink-0">
           <span className="font-display text-5xl sm:text-7xl md:text-8xl lg:text-9xl font-black uppercase tracking-tight text-zinc-950 px-4 sm:px-6">
-            PROJEKT
+            {marquee.step1}
           </span>
           <span className="font-display text-4xl sm:text-6xl md:text-7xl font-bold text-zinc-300 px-2 sm:px-4">
             —
           </span>
           <span className="font-display text-5xl sm:text-7xl md:text-8xl lg:text-9xl font-black uppercase tracking-tight text-zinc-500 px-4 sm:px-6">
-            DRUK
+            {marquee.step2}
           </span>
           <span className="font-display text-4xl sm:text-6xl md:text-7xl font-bold text-zinc-300 px-2 sm:px-4">
             —
           </span>
           <span className="font-display text-5xl sm:text-7xl md:text-8xl lg:text-9xl font-black uppercase tracking-tight text-zinc-950 px-4 sm:px-6">
-            ROZWIĄZANIE
+            {marquee.step3}
           </span>
           <span className="font-display text-5xl sm:text-7xl md:text-8xl lg:text-9xl font-black text-[#84a818] px-6 sm:px-10 leading-none">
             *
@@ -132,7 +149,6 @@ export const AboutManifest: React.FC<AboutManifestProps> = ({
   return (
     <section className="relative w-full bg-[#f4f5f7] text-zinc-950 pt-10 sm:pt-14">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 relative z-10">
-        {/* Nagłówek Sekcji */}
         <div className="flex items-center justify-between gap-4 mb-10 pb-4 border-b border-zinc-200">
           <div className="flex items-center gap-2.5">
             <span className="font-display font-extrabold text-xs sm:text-sm text-zinc-900 uppercase tracking-wide">
@@ -140,7 +156,7 @@ export const AboutManifest: React.FC<AboutManifestProps> = ({
             </span>
             <span className="w-1.5 h-1.5 rounded-full bg-zinc-400" />
             <span className="text-zinc-500 font-mono text-xs hidden sm:inline-block">
-              O Firmie
+              {badgeInfo}
             </span>
           </div>
 
@@ -150,7 +166,6 @@ export const AboutManifest: React.FC<AboutManifestProps> = ({
           </div>
         </div>
 
-        {/* Tekst o misji */}
         <div className="space-y-12 max-w-4xl">
           <div>
             <h2 className="font-display text-3xl sm:text-4xl font-extrabold text-zinc-950 tracking-tight mb-6">
@@ -203,7 +218,12 @@ export const AboutManifest: React.FC<AboutManifestProps> = ({
           </div>
         </div>
 
-        <TeamSection members={teamMembers} />
+        <TeamSection
+          members={teamMembers}
+          title={teamTitle}
+          desc={teamParagraph}
+          badge={teamBadge}
+        />
       </div>
 
       {/* Pasek Marquee */}
@@ -216,8 +236,8 @@ export const AboutManifest: React.FC<AboutManifestProps> = ({
           className="flex items-center w-max will-change-transform"
           style={{ transform: "translate3d(-50%, 0, 0)" }}
         >
-          {renderMarqueeUnit("half-a")}
-          {renderMarqueeUnit("half-b")}
+          {renderMarqueeUnit(marquee, "marquee-top")}
+          {renderMarqueeUnit(marquee, "marquee-bottom")}
         </div>
       </div>
     </section>

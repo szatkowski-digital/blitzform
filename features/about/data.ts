@@ -30,6 +30,7 @@ export const getAboutHeroData = (t: (key: string) => string) => ({
 
 export const getAboutManifestData = (t: (key: string) => string) => ({
   badge: t("aboutManifest.badge"),
+  badgeInfo: t("aboutManifest.badgeInfo"),
   location: t("aboutManifest.location"),
   country: t("aboutManifest.country"),
   title: t("aboutManifest.title"),
@@ -58,29 +59,37 @@ export const getAboutManifestData = (t: (key: string) => string) => ({
       desc: t("aboutManifest.sectors.3.desc"),
     },
   ],
+  teamTitle: t("aboutManifest.teamTitle"),
+  teamParagraph: t("aboutManifest.teamParagraph"),
+  teamBadge: t("aboutManifest.teamBadge"),
   teamMembers: [
     {
       id: "1",
       name: "Dawid Tomica",
-      role: "Produkcja i Inżynieria",
+      role: t("aboutManifest.team.dawid.role"),
       bio: "Founder",
       avatarUrl: "/images/about/dawid_t.avif",
     },
     {
       id: "2",
       name: "Bartosz Kuśmierek",
-      role: "Inżynieria i Operacje",
+      role: t("aboutManifest.team.bartosz.role"),
       bio: "Founding Partner",
       avatarUrl: "/images/about/bartosz_k.avif",
     },
     {
       id: "3",
       name: "Paweł Szatkowski",
-      role: "Systemy i Automatyzacja",
+      role: t("aboutManifest.team.pawel.role"),
       bio: "Founding Partner",
       avatarUrl: "/images/about/pawel_s.avif",
     },
   ],
+  marquee: {
+    step1: t("aboutManifest.marquee.step1"),
+    step2: t("aboutManifest.marquee.step2"),
+    step3: t("aboutManifest.marquee.step3"),
+  },
 });
 
 export const getAboutCtaData = (t: (key: string) => string) => ({

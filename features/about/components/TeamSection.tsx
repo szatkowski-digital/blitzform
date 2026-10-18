@@ -15,9 +15,17 @@ interface TeamMember {
 
 interface TeamSectionProps {
   members: TeamMember[];
+  title: string;
+  desc: string;
+  badge: string;
 }
 
-export const TeamSection = ({ members }: TeamSectionProps) => {
+export const TeamSection = ({
+  members,
+  title,
+  desc,
+  badge,
+}: TeamSectionProps) => {
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
@@ -33,13 +41,12 @@ export const TeamSection = ({ members }: TeamSectionProps) => {
   return (
     <div className="pt-20 sm:pt-24 pb-16 sm:pb-20 mt-16 border-t border-zinc-200">
       <div className="text-center max-w-2xl mx-auto mb-14 sm:mb-16">
-        <Badge variant="light">02 • Kadra Inżynieryjna</Badge>
+        <Badge variant="light">{badge}</Badge>
         <h2 className="font-display text-3xl sm:text-5xl font-black text-zinc-950 uppercase tracking-tight">
-          BlitzForm Team
+          {title}
         </h2>
         <p className="text-zinc-600 font-sans text-sm sm:text-base mt-3 leading-relaxed">
-          The people behind the concept, technology, and field deployments of
-          BlitzForm.
+          {desc}
         </p>
       </div>
 
